@@ -1,1 +1,3 @@
-theme: jeykll-theme-slate
+theme: jekyll-theme-slate
+title: "My Portfolio"
+description: "A showcase of my projects and skills"
