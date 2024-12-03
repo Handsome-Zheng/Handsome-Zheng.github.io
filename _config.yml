@@ -3,17 +3,13 @@
 # Basic Jekyll settings
 title: "My Portfolio"
 description: "A showcase of my projects and skills"
-baseurl: "" # This should be empty for user/organization sites like username.github.io
-url: "https://username.github.io" # Replace 'username' with your GitHub username
 theme: jekyll-theme-slate
 
 # Social links (optional)
 social:
-  twitter: "https://twitter.com/username"
+  Linkedin: "ssss"
   github: "https://github.com/username"
 
-# Set the site’s language (optional)
-language: "en"
 
 # Include custom CSS file if needed
 css:
@@ -22,7 +18,6 @@ css:
 # Exclude files from processing
 exclude:
   - "README.md"
-  - "LICENSE.txt"
 
 # Navigation menu items (optional)
 navigation:
