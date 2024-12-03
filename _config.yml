@@ -1,3 +1,38 @@
-theme: jekyll-theme-slate
+#_config.yml
+
+# Basic Jekyll settings
 title: "My Portfolio"
 description: "A showcase of my projects and skills"
+baseurl: "" # This should be empty for user/organization sites like username.github.io
+url: "https://username.github.io" # Replace 'username' with your GitHub username
+theme: jekyll-theme-slate
+
+# Social links (optional)
+social:
+  twitter: "https://twitter.com/username"
+  github: "https://github.com/username"
+
+# Set the site’s language (optional)
+language: "en"
+
+# Include custom CSS file if needed
+css:
+  - "/assets/css/styles.css"
+
+# Exclude files from processing
+exclude:
+  - "README.md"
+  - "LICENSE.txt"
+
+# Navigation menu items (optional)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Gallery"
+    url: "/#gallery"
+  - title: "Contact"
+    url: "/#contact"
+
+# GitHub Pages settings
+# Enabling Markdown parsing for `.md` files
+markdown: kramdown
