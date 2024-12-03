@@ -1,33 +1,6 @@
 #_config.yml
 
 # Basic Jekyll settings
+theme: jekyll-theme-slate
 title: "My Portfolio"
 description: "A showcase of my projects and skills"
-theme: jekyll-theme-slate
-
-# Social links (optional)
-social:
-  Linkedin: "ssss"
-  github: "https://github.com/username"
-
-
-# Include custom CSS file if needed
-css:
-  - "/assets/css/styles.css"
-
-# Exclude files from processing
-exclude:
-  - "README.md"
-
-# Navigation menu items (optional)
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Gallery"
-    url: "/#gallery"
-  - title: "Contact"
-    url: "/#contact"
-
-# GitHub Pages settings
-# Enabling Markdown parsing for `.md` files
-markdown: kramdown
