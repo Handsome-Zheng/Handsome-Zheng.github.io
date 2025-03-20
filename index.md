@@ -1,12 +1,15 @@
 ---
 
 # Welcome to My Portfolio
-I am a Mechanical Engineering student at Columbia University, passionate about AI, Robotics, and Machine Learning. 
+
 
 ## About Me
-- Experience in CAD (SolidWorks, Fusion 360)
-- Research in Automated Foosball, ECMO, and HV Enclosures
-- Robotics (VEXU, Combat Robotics, FSAE)
+My Name is Handsome Zheng, a current Sophomore studying Mechanical Engineering with a minor in Computer Science at Columbia University. 
+
+I am a driven and passionate sophomore currently pursuing a degree in Mechanical Engineering with a minor in Computer Science. With a strong interest in AI, Robotics, and Machine Learning, I am eager to explore how cutting-edge technology can transform the world. My academic journey is complemented by hands-on experience in CAD (Computer-Aided Design), machining parts, and building engineering projects.
+
+I love to work in team environments where collaboration, communication, and problem-solving are key. Outside of engineering, I enjoy art, working out, and traveling, which I believe all contribute to my creativity, well-being, and adaptability
+
 
 ## Projects
 - **[Automated Foosball Table](#projects/FoosballResearch.md)** – AI & ML-based foosball-playing robot.
