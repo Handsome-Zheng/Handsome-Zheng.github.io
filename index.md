@@ -9,7 +9,7 @@ I am a Mechanical Engineering student at Columbia University, passionate about A
 - Robotics (VEXU, Combat Robotics, FSAE)
 
 ## Projects
-- **[Automated Foosball Table](#)** – AI & ML-based foosball-playing robot.
+- **[Automated Foosball Table](#projects/FoosballResearch.md)** – AI & ML-based foosball-playing robot.
 - **[VEXU Robotics](#)** – CAD & hardware design for competitive robotics.
 - **[FSAE HV Enclosure](#)** – High-voltage enclosure design for a race car.
 - **[Columbia Combat Robotics](#)** - Designor, Builder, and Manufacturer for Combat Robot
