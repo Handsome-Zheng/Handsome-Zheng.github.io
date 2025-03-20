@@ -1,5 +1,3 @@
-layout: default
-title: Handsome Zheng's Portfolio
 ---
 
 # Welcome to My Portfolio
