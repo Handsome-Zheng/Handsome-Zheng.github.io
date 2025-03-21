@@ -10,4 +10,5 @@ An AI & ML-powered robotic foosball player built with SolidWorks, MuJoCo, and NV
 - High-speed vision system
 - Real-time robotic control
 - Motorized movement
+
 ![Foosball Mujoco Simulation](assets/images/PortfolioFR.png)
