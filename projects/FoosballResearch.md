@@ -1,4 +1,4 @@
-title: Automated Foosball Table
+Automated Foosball Table
 ---
 
 # Automated Foosball Table 
