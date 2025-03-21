@@ -1,4 +1,3 @@
-layout: default
 title: Automated Foosball Table
 ---
 
@@ -12,3 +11,6 @@ An AI & ML-powered robotic foosball player built with SolidWorks, MuJoCo, and NV
 - Motorized movement
 
 ![Foosball Mujoco Simulation](/assets/images/PortfolioFR.PNG)
+
+
+[Return to Home](https://Handsome-Zheng.github.io/)
