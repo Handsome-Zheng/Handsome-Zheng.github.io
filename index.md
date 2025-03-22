@@ -14,9 +14,13 @@ I love to work in team environments where collaboration, communication, and prob
 
 ## Projects
 - **[Automated Foosball Table](projects/FoosballResearch.md)** – AI & ML-based foosball-playing robot end to end.
+
 - **[VEXU Robotics](#)** – CAD & hardware design for competitive robotics.
+
 - **[FSAE HV Enclosure](#)** – High-voltage enclosure design for a race car.
+
 - **[Columbia Combat Robotics](#)** - Designor, Builder, and Manufacturer for Combat Robot
+
 
 ## Contact
 - [LinkedIn](https://www.linkedin.com/in/handsome-zheng)
