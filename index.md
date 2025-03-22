@@ -1,7 +1,7 @@
 ---
 
 # Welcome to My Portfolio
-!(/assets/images/PortfolioPFP.PNG)
+![](/assets/images/PortfolioPFP.PNG)
 
 
 ## About Me
