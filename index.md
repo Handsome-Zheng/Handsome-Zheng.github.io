@@ -5,7 +5,7 @@
 
 
 ## About Me
-My Name is Handsome Zheng, a current Sophomore studying Mechanical Engineering with a minor in Computer Science at Columbia University. 
+My name is Handsome Zheng, a current Sophomore studying Mechanical Engineering with a minor in Computer Science at Columbia University. 
 
 I am a driven and passionate sophomore currently pursuing a degree in Mechanical Engineering with a minor in Computer Science. With a strong interest in AI, Robotics, and Machine Learning, I am eager to explore how cutting-edge technology can transform the world. My academic journey is complemented by hands-on experience in CAD (Computer-Aided Design), machining parts, and building engineering projects.
 
