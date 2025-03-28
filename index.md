@@ -17,7 +17,7 @@ I love to work in team environments where collaboration, communication, and prob
 
 - **[VEXU Robotics](#)** – CAD & hardware design for competitive robotics.
 
-- **[FSAE HV Enclosure](#)** – High-voltage enclosure design for a race car.
+- **[FSAE Powertrain Engineer](projects/F1.md)** – High-voltage enclosure design for a race car.
 
 - **[Columbia Combat Robotics](#)** - Designor, Builder, and Manufacturer for Combat Robot
 
