@@ -13,13 +13,15 @@ I love to work in team environments where collaboration, communication, and prob
 
 
 ## Projects
-- **[Automated Foosball Table](projects/FoosballResearch.md)** – AI & ML-based foosball-playing robot end to end.
+- **[Automated Foosball Table Research](projects/FoosballResearch.md)** – Researching and creating an AI & ML-based foosball-playing robot end to end.
 
-- **[VEXU Robotics](#)** – CAD & hardware design for competitive robotics.
+- **[ECMO Research](projects/FoosballResearch.md)** - Researching and designing an Extracorporeal Membrane Oxygenator chip and housing.
 
-- **[FSAE Powertrain Engineer](projects/F1.md)** – High-voltage enclosure design for a race car.
+- **[VEXU Robotics](#)** – Developing and building CAD & hardware design for internation VEX robotics competitions.
 
-- **[Columbia Combat Robotics](#)** - Designor, Builder, and Manufacturer for Combat Robot
+- **[FSAE Powertrain Engineer](projects/F1.md)** – Developing various projects for the Columbia University Formula racing team.
+
+- **[Columbia Combat Robotics](#)** - Designing and manufacturing a combat robot to compete in the National Havoc Robotics League.
 
 
 ## Contact
