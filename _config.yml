@@ -4,3 +4,8 @@
 theme: jekyll-theme-slate
 title: "Handsome Zheng Project Portfolio"
 description: "A showcase of some of my projects and skills"
+
+# Navigation menu
+header_pages:
+  - index.md
+  - projects.md
