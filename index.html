@@ -2,55 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Handsome Zheng Project Portfolio</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Handsome Zheng</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <a href="#">Projects ▾</a>
-          <ul class="dropdown-content">
-            <li><a href="projects/foosball.html">Automated Foosball Table</a></li>
-            <li><a href="projects/ecmo.html">ECMO Research</a></li>
-            <li><a href="projects/fsae.html">FSAE Powertrain</a></li>
-            <li><a href="projects/combat.html">Combat Robotics</a></li>
-          </ul>
-        </li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Handsome Zheng</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="projects/foosball.html">Automated Foosball Table</a></li>
+              <li><a class="dropdown-item" href="projects/ecmo.html">ECMO Research</a></li>
+              <li><a class="dropdown-item" href="projects/fase.html">FSAE Powertrain</a></li>
+              <li><a class="dropdown-item" href="projects/combat.html">Combat Robotics</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="bg-light text-center py-5">
+    <img src="assets/images/PortfolioPFP.PNG" alt="Profile Picture" class="rounded-circle mb-3" width="150">
+    <h1 class="fw-bold">Welcome to My Portfolio</h1>
+    <p class="lead">Mechanical Engineering + Computer Science @ Columbia University</p>
   </header>
 
-  <!-- Hero / Intro -->
-  <section class="hero">
-    <img src="assets/images/PortfolioPFP.PNG" alt="Portfolio Picture" class="profile-pic">
-    <h1>Welcome to My Portfolio</h1>
-  </section>
-
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <h2 class="mb-3">About Me</h2>
     <p>
       My name is Handsome Zheng, a current Sophomore studying Mechanical Engineering with a minor in Computer Science at Columbia University.
-      I am passionate about AI, Robotics, and Machine Learning. I also have hands-on experience in CAD, machining, and building engineering projects.
-      I love team environments where collaboration, communication, and problem-solving thrive.
+      I am passionate about AI, Robotics, and Machine Learning, with hands-on experience in CAD, machining, and engineering projects.
+      I thrive in collaborative, problem-solving environments and enjoy art, working out, and traveling.
     </p>
   </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/handsome-zheng" target="_blank">LinkedIn</a></li>
-      <li>Email: <a href="mailto:Hz2857@columbia.edu">Hz2857@columbia.edu</a></li>
-    </ul>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-3">Contact</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/handsome-zheng" target="_blank">LinkedIn</a></li>
+        <li>Email: <a href="mailto:Hz2857@columbia.edu">Hz2857@columbia.edu</a></li>
+      </ul>
+    </div>
   </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
