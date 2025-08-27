@@ -2,53 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Columbia FSAE - HV Enclosure</title>
-  <link rel="stylesheet" href="../assets/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Handsome Zheng</div>
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li class="dropdown">
-          <a href="#">Projects ▾</a>
-          <ul class="dropdown-content">
-            <li><a href="foosball.html">Automated Foosball Table</a></li>
-            <li><a href="ecmo.html">ECMO Research</a></li>
-            <li><a href="fase.html">FSAE Powertrain</a></li>
-            <li><a href="combat.html">Combat Robotics</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </header>
+
+  <!-- Navbar (reuse across all pages) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Handsome Zheng</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="foosball.html">Automated Foosball Table</a></li>
+              <li><a class="dropdown-item" href="ecmo.html">ECMO Research</a></li>
+              <li><a class="dropdown-item" href="f1.html">FSAE Powertrain</a></li>
+              <li><a class="dropdown-item" href="combat.html">Combat Robotics</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- Project Content -->
-  <section>
-    <h1>Columbia FSAE: HV Enclosure</h1>
+  <section class="container my-5">
+    <h1 class="mb-3">Columbia FSAE: HV Enclosure</h1>
     <p>
       Design and manufacture of a <strong>High-Voltage Enclosure</strong> for Columbia University's
       <strong>Formula SAE Electric</strong> race car.
     </p>
 
-    <h2>Objectives</h2>
+    <h2 class="mt-4">Objectives</h2>
     <ul>
       <li>Develop a <strong>high-voltage battery enclosure</strong> to house the power supply.</li>
       <li>Ensure <strong>structural integrity and cooling efficiency</strong> for competition use.</li>
       <li>Optimize material selection and design through <strong>Finite Element Analysis (FEA)</strong>.</li>
     </ul>
 
-    <h2>Contributions</h2>
+    <h2 class="mt-4">Contributions</h2>
 
     <h3>Battery &amp; Accumulator</h3>
     <ul>
       <li>Designed battery storage enclosure in <strong>SolidWorks</strong>.</li>
       <li>Performed <strong>maintenance and material selection</strong> for battery dividers.</li>
     </ul>
-    <img src="../assets/images/PortfolioF1.2.PNG" alt="Aluminum Accumulator 2025" style="max-width:600px; width:100%; margin: 1rem 0;">
+    <img src="../assets/images/PortfolioF1.2.PNG" class="img-fluid rounded shadow my-3" alt="Aluminum Accumulator 2025">
 
     <h3>Enclosure Design</h3>
     <ul>
@@ -63,17 +70,23 @@
       <li>Assisted in chassis component design for compatibility.</li>
     </ul>
 
-    <h2>Tools &amp; Technologies</h2>
+    <h2 class="mt-4">Tools &amp; Technologies</h2>
     <ul>
       <li><strong>CAD:</strong> SolidWorks</li>
       <li><strong>Material Analysis:</strong> FEA</li>
       <li><strong>Prototyping:</strong> CNC Machining, 3D Printing</li>
     </ul>
 
-    <h2>Role</h2>
-    <p><strong>HV Enclosure Lead</strong> – Responsible for the full design cycle from <strong>concept to implementation</strong>.</p>
+    <h2 class="mt-4">Role</h2>
+    <p>
+      <strong>HV Enclosure Lead</strong> – Responsible for the full design cycle from
+      <strong>concept to implementation</strong>.
+    </p>
 
-    <p><a href="../index.html">← Return to Home</a></p>
+    <a href="../index.html" class="btn btn-primary mt-3">← Return to Home</a>
   </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
