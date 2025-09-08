@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automated Foosball Table</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar (reuse same across pages) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Handsome Zheng</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="FoosballResearch.html">Columbia Creative Research Lab</a></li>
+              <li><a class="dropdown-item" href="F1.html">FSAE Powertrain</a></li>
+              <li><a class="dropdown-item" href="CRC.html">Combat Robotics</a></li>
+              <li><a class="dropdown-item" href="Coursework.html">Coursework</a></li>
+              <li><a class="dropdown-item" href="WSP.html">WSP Internship</a></li>
+              <li><a class="dropdown-item" href="RITECMO.html">RIT Day Labs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Project Content -->
+  <section class="container my-5">
+    <h1>Rochester Institute of Technology Day Labs: Extracorporeal Membrane Oxygenator (ECMO) Research</h1>
+    <figure class="text-center my-3">
+      <img src="../assets/images/PortfolioFR.4.png" class="img-fluid rounded shadow" alt="Foosball Camera View" style="max-width:50%;">
+      <figcaption class="mt-2 text-muted">Foosball Camera View</figcaption>
+    </figure>
+    <p>
+  <strong>Goal</strong> - Create an automated foosball table that is capable of playing Foosball using AI agents end to end without sensors to track the ball.
+    </p>
+    <p>
+      <strong>Tenure</strong> - 2024 to present
+    </p>
+
+ 
+
+    <h2 class="mt-4">Role:</h2>
+    <p>
+      <strong>Undergraduate Researcher</strong> - Researcher responsible for designing and building the mechanical systems for the foosball table. Additionally, helping to implement algorithms for the AI agents.
+    </p>
+
+    <h2 class="mt-4">Objectives:</h2>
+    <ul>
+      <li>Manufacture and build a foosball table robot capable of playing foosball at a human level.</li>
+      <li>Create simulated environment that can accurately reflect the factors in a foosball game.</li>
+      <li>Develop a better understanding of the limits of AI agents and what factors drive them.</li>
+      <li>Integrate high-speed, vision-based tracking systems and global-shutter camera technology to enable precise, real-time ball and rod state estimation without traditional sensors, providing accurate data for AI decision-making.</li>
+    </ul>
+
+      <h2 class="mt-4">Tools &amp; Technologies &amp; Skills</h2>
+    <ul>
+     <li><strong>CAD: </strong>SolidWorks.</li>
+     <li><strong>Coding/Simulation: </strong> Python, C++, Mujoco, NVIDIA Isaac Sim.</li>
+    <li><strong>Skills/Developed: </strong> Understanding of how to develop a project from start to finish, researching skills on new topics, better understanding of part selection, Manufacturing Skills; Prototyping skills, System Integration.</li>
+    </ul>
+
+    <h2 class="mt-4">Contributions:</h2>
+
+    <h3>Mujoco Simulated Environment</h3>
+    <ul>
+      <li>Created a simulated environment for the foosball table, sticks, and ball using physics simulator Mujoco.</li>
+      <li>Tested and tuned physics attributes of the foosmen and foosball.</li>
+      <li>Used simulated environment to train AI agents in python by running iterations of scoring the ball.</li>
+      <li><strong>Learned/Developed:</strong> Familiarity with simulated environments; Better understanding of Python and its libraries; Understanding of how AI agents operate; Proficiency in Github Version Control. </li>
+    </ul>
+    <figure class="text-center my-3">
+      <img src="../assets/images/PortfolioFR.PNG" class="img-fluid rounded shadow" alt="Foosball Environment">
+      <figcaption class="mt-2 text-muted">Foosball Simulated Environment</figcaption>
+    </figure>
+
+
+
+
+    <h3>Full Foosball CAD</h3>
+    <ul>
+      <li> Modeled entire CAD of foosball table, foosball camera stand, ball reset mechanism and foosball mechanisms in Solidworks.</li>
+      <li> 3D printed parts for reset mechanism and foosball playing mechanisms.</li>
+      <li> Helped select parts and materials to model in CAD and later adopted in build phase. </li>
+      <li><strong>Learned/Developed:</strong> Proficiency in Solidworks; Proficiency in version control; Learned methods of mechanical design.</li>
+    </ul>
+    <figure class="text-center my-3">
+      <img src="../assets/images/PortfolioFR.3.PNG" class="img-fluid rounded shadow" alt="CAD" style="max-width:50%;">
+      <figcaption class="mt-2 text-muted">Foosball Table Full CAD</figcaption>
+    </figure>
+
+    <h3>Full Foosball Build</h3>
+    <ul>
+      <li> Utilized 20x20 aluminum rail extrusions along with aluminum corner brackets to build stable camera stand on foosball table.</li>
+      <li> Built a low-cost vision and reset system, selecting ELP 48mp camera to mimic human visual capabilities.</li>
+      <li> Designed and implemented a multi-axis control architecture for the automated foosball table, selecting Teknic ClearPath-SC motors integrated via SC4-Hub configurations to support up to 16 actuated axes, with real-time, multi-threaded C++ control.</li>
+      <li> Developed potential automatic ball reset mechanism facilitating the movement of the ball with a vacuum.</li>
+      <li><strong>Learned/Developed:</strong> Skills with structural framing with aluminum extrusions; Knowledge of camera selection for machine vision; Familiarity with multi-axis motor control integration; Used C++ for real-time robotic control; Better understanding of hardware-software robotic system design.</li>
+    </ul>
+    <figure class="text-center my-3">
+      <img src="../assets/images/PortfolioFR.2.jpg" class="img-fluid rounded shadow" alt="Camera Setup" style="max-width:40%;">
+      <figcaption class="mt-2 text-muted">Built Camera Setup and Handle Motors</figcaption>
+    </figure>
+
+
+    <p><a href="../index.html" class="btn btn-primary">← Return to Home</a></p>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
