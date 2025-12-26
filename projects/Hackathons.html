@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hackathons</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Handsome Zheng</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="FoosballResearch.html">Columbia Creative Research Lab</a></li>
+              <li><a class="dropdown-item" href="F1.html">FSAE Powertrain</a></li>
+              <li><a class="dropdown-item" href="CRC.html">Combat Robotics</a></li>
+              <li><a class="dropdown-item" href="Coursework.html">Coursework</a></li>
+              <li><a class="dropdown-item" href="WSP.html">WSP Internship</a></li>
+              <li><a class="dropdown-item" href="RITECMO.html">RIT Day Labs</a></li>
+              <li><a class="dropdown-item" href="RITVex.html">RIT VEXU Robotics</a></li>
+              <li><a class="dropdown-item active" href="Hackathons.html">Hackathons</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <section class="container my-5">
+
+    <!-- Page Header -->
+    <h1 class="mb-3">Hackathons</h1>
+    <p class="lead">
+      A collection of hardware and software hackathons where I worked in fast-paced,
+      multidisciplinary teams to prototype real-world engineering solutions under
+      tight time constraints.
+    </p>
+
+    <hr class="my-5">
+
+    <!-- ======================= -->
+    <!-- MakeCU Hackathon Entry -->
+    <!-- ======================= -->
+
+    <h2 class="mb-2">MakeCU Hackathon</h2>
+    <p class="text-muted">Columbia University · 2025–2026</p>
+
+    <!-- Top Images (Vertical Stack) -->
+<div class="text-center my-4">
+  <figure class="mb-4">
+    <img src="../assets/images/PortfolioHack1.png"
+         class="img-fluid rounded shadow"
+         alt="Hackathon Team at Work"
+         style="max-width:45%;">
+    <figcaption class="mt-2 text-muted"></figcaption>
+  </figure>
+
+  <figure>
+    <img src="../assets/images/PortfolioHack4.jpg"
+         class="img-fluid rounded shadow"
+         alt="Robot Prototype Early Stage"
+         style="max-width:45%;">
+    <figcaption class="mt-2 text-muted">Team Photo</figcaption>
+  </figure>
+</div>
+
+
+    <p>
+      <strong>Team:</strong> CUPu<br>
+      <strong>Project:</strong> Computer-vision-based robotic trash and recycling sorter
+    </p>
+
+    <h3>Inspiration</h3>
+    <p>
+      Environmental sustainability is a growing global challenge. Our team wanted to
+      create a system that makes sustainable behavior easier and more accessible,
+      leading to the concept of an automated garbage sorting robot.
+    </p>
+
+    <h3>What We Built</h3>
+    <p>
+      A robotic system that detects when an object is placed in front of it, classifies
+      the object as trash or recyclable using computer vision, and mechanically directs
+      it into the correct bin.
+    </p>
+<h3 class="mt-4">Final Product Demo</h3>
+
+<div class="ratio ratio-16x9 my-4">
+  <iframe
+    src="https://www.youtube.com/embed/-2iLVuXT0NE"
+    title="Automated Trash Sorting Robot Demo"
+    allowfullscreen>
+  </iframe>
+</div>
+
+    <h3>How We Built It</h3>
+
+    <h4>Hardware</h4>
+    <ul>
+      <li>Raspberry Pi as the main controller</li>
+      <li>Camera and ultrasonic sensor for object detection and positioning</li>
+      <li>Servo motor and driver for mechanical sorting</li>
+      <li>3D-printed platform and electronics mount designed in SolidWorks</li>
+      <li>Carbon-based bin and funnel structure</li>
+    </ul>
+<div class="row text-center my-4">
+  <div class="col-md-4">
+    <figure>
+      <img src="../assets/images/PortfolioHack2.jpg"
+           class="img-fluid rounded shadow"
+           alt="Hardware Assembly">
+      <figcaption class="mt-2 text-muted">Electronics & wiring assembly</figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-4">
+    <figure>
+      <img src="../assets/images/PortfolioHack3.jpg"
+           class="img-fluid rounded shadow"
+           alt="Servo Sorting Mechanism">
+      <figcaption class="mt-2 text-muted">Servo-driven sorting mechanism</figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-4">
+    <figure>
+      <img src="../assets/images/PortfolioHack5.png"
+           class="img-fluid rounded shadow"
+           alt="CAD Design">
+      <figcaption class="mt-2 text-muted">SolidWorks CAD design</figcaption>
+    </figure>
+  </div>
+</div>
+    <h4>Software</h4>
+    <ul>
+      <li>Computer vision model trained on a labeled Kaggle dataset</li>
+      <li>Python-based image processing and inference pipeline</li>
+      <li>Real-time classification of recyclable vs. trash items</li>
+    </ul>
+
+    <!-- Software Pipeline Image -->
+<figure class="text-center my-4">
+  <img src="../assets/images/PortfolioHack6.png"
+       class="img-fluid rounded shadow"
+       alt="Computer Vision Pipeline"
+       style="max-width:55%;">
+  <figcaption class="mt-2 text-muted">
+    Computer vision pipeline from object detection to servo actuation
+  </figcaption>
+</figure>
+
+    <h3>Challenges</h3>
+    <ul>
+      <li>Unreliable Raspberry Pi networking over mobile hotspot</li>
+      <li>Long model training times with limited bandwidth</li>
+      <li>Hardware failure requiring rapid redesign and reprogramming</li>
+      <li>Limited access to batteries and 3D printers during the event</li>
+    </ul>
+
+    <h3>Accomplishments</h3>
+    <ul>
+      <li>Trained a computer vision model achieving ~96% accuracy</li>
+      <li>Successfully integrated hardware and software into a working prototype</li>
+      <li>Delivered a functional system under extreme time and resource constraints</li>
+    </ul>
+
+    <h3>Skills & Tools</h3>
+    <ul>
+      <li><strong>Programming:</strong> Python, NumPy, OpenCV, PyTorch</li>
+      <li><strong>Hardware:</strong> Raspberry Pi, GPIO, Sensors, Servos</li>
+      <li><strong>Design:</strong> SolidWorks, Rapid Prototyping</li>
+      <li><strong>Skills:</strong> Teamwork, Debugging, Time Management</li>
+    </ul>
+
+    <!-- ======================= -->
+    <!-- Future Hackathons -->
+    <!-- ======================= -->
+
+    <hr class="my-5">
+
+    <h2>More Hackathons Coming Soon</h2>
+    <p class="text-muted">
+      This page will be updated with additional hackathons as I continue participating
+      in competitive, fast-paced engineering events. Next: (Jan 17th NexHacks)
+    </p>
+
+    <a href="../index.html" class="btn btn-primary mt-3">← Return to Home</a>
+
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
