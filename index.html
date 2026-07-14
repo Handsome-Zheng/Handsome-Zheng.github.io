@@ -247,6 +247,33 @@
     .about-grid{grid-template-columns:1fr;}
     .project-grid{grid-template-columns:repeat(2,1fr);}
   }
+  /* ---------- Full Width Projects Section ---------- */
+
+#projects {
+  display:block;
+  width:100%;
+  clear:both;
+}
+
+.projects-inner {
+  width:100%;
+  max-width:none;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+}
+
+#projects .project-grid {
+  width:100%;
+}
+
+
+/* ---------- Separate Contact Section ---------- */
+
+#contact {
+  display:block;
+  width:100%;
+  clear:both;
+}
   @media (max-width:640px){
     .project-grid{grid-template-columns:1fr;}
     nav.links{
@@ -480,85 +507,149 @@
   <span class="dim-label">03 — PROJECTS</span>
   <div class="tick-line"></div>
 </div>
-  <div class="dim-divider">
 
-  <div class="dim-divider"><div class="tick-line"></div><span class="dim-label">02 — PROJECTS</span><div class="tick-line"></div></div>
+
+  
 
   <!-- ============ PROJECTS ============-->
-  <section id="projects" class="blueprint-bg">
-    <div class="section-inner">
-      <div class="section-head reveal">
-        <div class="eyebrow">Selected work</div>
-        <h2 class="section-title">Projects &amp; Experience</h2>
-      </div>
-      <div class="project-grid">
-        <a class="project-card reveal" href="/projects/FoosballResearch.html">
-          <span class="sheet-no">SHEET 01/07</span>
-          <h3 class="project-title">Columbia Creative Research Lab</h3>
-          <p class="project-desc">Research work on a robotic foosball system, spanning mechanical design and control.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-        <a class="project-card reveal" href="/projects/F1.html">
-          <span class="sheet-no">SHEET 02/07</span>
-          <h3 class="project-title">FSAE Powertrain</h3>
-          <p class="project-desc">Formula SAE team work on powertrain design, integration, and testing.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-        <a class="project-card reveal" href="/projects/CRC.html">
-          <span class="sheet-no">SHEET 03/07</span>
-          <h3 class="project-title">Combat Robotics</h3>
-          <p class="project-desc">Designing and building combat robots — CAD, fabrication, and drivetrain.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-        <a class="project-card reveal" href="/projects/WSP.html">
-          <span class="sheet-no">SHEET 04/07</span>
-          <h3 class="project-title">WSP Internship</h3>
-          <p class="project-desc">Engineering internship at WSP, applying classroom fundamentals to real projects.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-        <a class="project-card reveal" href="/projects/RITECMO.html">
-          <span class="sheet-no">SHEET 05/07</span>
-          <h3 class="project-title">RIT Day Labs</h3>
-          <p class="project-desc">Hands-on lab work at RIT, exploring device design and prototyping.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-        <a class="project-card reveal" href="/projects/RITVex.html">
-          <span class="sheet-no">SHEET 06/07</span>
-          <h3 class="project-title">RIT VEXU Robotics</h3>
-          <p class="project-desc">Competitive collegiate robotics — mechanism design and build.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-        <a class="project-card reveal" href="/projects/Hackathons.html">
-          <span class="sheet-no">SHEET 07/07</span>
-          <h3 class="project-title">Hackathons</h3>
-          <p class="project-desc">Rapid prototyping under time pressure across a handful of hackathons.</p>
-          <span class="project-cta">View sheet →</span>
-        </a>
-      </div>
+
+
+<section id="projects" class="blueprint-bg">
+
+  <div class="projects-inner">
+
+    <div class="section-head reveal">
+      <div class="eyebrow">Selected work</div>
+      <h2 class="section-title">Projects &amp; Experience</h2>
     </div>
-  </section>
 
-  <div class="dim-divider"><div class="tick-line"></div><span class="dim-label">03 — CONTACT</span><div class="tick-line"></div></div>
 
-  <!-- ============ CONTACT ============ -->
-  <section id="contact">
-    <div class="section-inner">
-      <div class="contact-block reveal">
-        <div>
-          <div class="eyebrow">Get in touch</div>
-          <h2 class="section-title">Contact</h2>
-          <div class="contact-links">
-            <a class="contact-btn" href="https://www.linkedin.com/in/handsome-zheng" target="_blank" rel="noopener">LinkedIn ↗</a>
-            <a class="contact-btn" href="mailto:Hz2857@columbia.edu">Hz2857@columbia.edu</a>
-          </div>
+    <div class="project-grid">
+
+      <a class="project-card reveal" href="/projects/FoosballResearch.html">
+        <span class="sheet-no">SHEET 01/07</span>
+        <h3 class="project-title">Columbia Creative Research Lab</h3>
+        <p class="project-desc">Research work on a robotic foosball system, spanning mechanical design and control.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+      <a class="project-card reveal" href="/projects/F1.html">
+        <span class="sheet-no">SHEET 02/07</span>
+        <h3 class="project-title">FSAE Powertrain</h3>
+        <p class="project-desc">Formula SAE team work on powertrain design, integration, and testing.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+      <a class="project-card reveal" href="/projects/CRC.html">
+        <span class="sheet-no">SHEET 03/07</span>
+        <h3 class="project-title">Combat Robotics</h3>
+        <p class="project-desc">Designing and building combat robots — CAD, fabrication, and drivetrain.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+      <a class="project-card reveal" href="/projects/WSP.html">
+        <span class="sheet-no">SHEET 04/07</span>
+        <h3 class="project-title">WSP Internship</h3>
+        <p class="project-desc">Mechanical engineering internship focused on HVAC design, analysis, and automation.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+      <a class="project-card reveal" href="/projects/RITECMO.html">
+        <span class="sheet-no">SHEET 05/07</span>
+        <h3 class="project-title">ECMO Research</h3>
+        <p class="project-desc">Biomedical engineering research involving device design and experimental testing.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+      <a class="project-card reveal" href="/projects/RITVex.html">
+        <span class="sheet-no">SHEET 06/07</span>
+        <h3 class="project-title">VEX Robotics</h3>
+        <p class="project-desc">Competitive robotics focused on mechanical design, fabrication, and strategy.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+      <a class="project-card reveal" href="/projects/Hackathons.html">
+        <span class="sheet-no">SHEET 07/07</span>
+        <h3 class="project-title">Hackathons</h3>
+        <p class="project-desc">Rapid prototyping projects combining hardware, software, and design.</p>
+        <span class="project-cta">View sheet →</span>
+      </a>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ============ CONTACT DIVIDER ============-->
+
+<div class="dim-divider">
+  <div class="tick-line"></div>
+  <span class="dim-label">04 — CONTACT</span>
+  <div class="tick-line"></div>
+</div>
+
+
+
+<!-- ============ CONTACT ============-->
+
+<section id="contact">
+
+  <div class="section-inner">
+
+    <div class="contact-block reveal">
+
+      <div>
+
+        <div class="eyebrow">
+          Get in touch
         </div>
-      </div>
-    </div>
-  </section>
 
-  <footer>
-    REV. A · 2026 · HANDSOME ZHENG PORTFOLIO
-  </footer>
+        <h2 class="section-title">
+          Contact
+        </h2>
+
+
+        <div class="contact-links">
+
+          <a class="contact-btn"
+             href="https://www.linkedin.com/in/handsome-zheng"
+             target="_blank"
+             rel="noopener">
+             LinkedIn ↗
+          </a>
+
+
+          <a class="contact-btn"
+             href="mailto:Hz2857@columbia.edu">
+             Hz2857@columbia.edu
+          </a>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<footer>
+  REV. A · 2026 · HANDSOME ZHENG PORTFOLIO
+</footer>
 
   <script>
     // Mobile menu toggle
