@@ -203,13 +203,311 @@
     <!-- ======================= -->
     <!-- Future Hackathons -->
     <!-- ======================= -->
+    <hr class="my-5">
+    <!-- ======================= -->
+<!-- HemiSec Hackathon Entry -->
+<!-- ======================= -->
 
+<hr class="my-5">
+
+<h2 class="mb-2">HemiSec: Portable Biometric Vein Scanner</h2>
+<p class="text-muted">Hackathon Project · Team of 3 · Hardware Lead</p>
+
+
+<!-- Team Introduction -->
+<h3 class="mt-4">Team & Role</h3>
+
+<p>
+  HemiSec was developed as a three-person interdisciplinary team focused on creating
+  a secure and portable biometric authentication system. I primarily contributed to
+  the hardware development, including system architecture, component integration,
+  enclosure design, and physical prototyping.
+</p>
+
+<p>
+  Our goal was to create a convenient authentication method that uses a person's
+  unique palm vein pattern — a biometric identifier that is significantly more
+  difficult to replicate or spoof compared to traditional passwords, cards, or
+  fingerprints.
+</p>
+
+
+<!-- Hardware Section -->
+
+<h3 class="mt-4">Hardware System</h3>
+
+<p>
+  The portable scanner uses near-infrared imaging to capture the unique vein
+  patterns beneath the user's palm. The hardware system was designed around a
+  Raspberry Pi platform capable of both image capture and onboard processing.
+</p>
+
+<ul>
+  <li><strong>Processing:</strong> Raspberry Pi 3 for image capture and computation</li>
+  <li><strong>Camera:</strong> Arducam OV5647 camera module</li>
+  <li><strong>Imaging:</strong> 850nm infrared illumination panel to reveal palm veins</li>
+  <li><strong>Enclosure:</strong> Lightweight, durable PLA case designed for portability</li>
+  <li><strong>Networking:</strong> Router-based connection for communication between devices</li>
+</ul>
+
+
+<!-- Hardware Images -->
+
+<div class="row text-center my-4">
+
+  <div class="col-md-4">
+    <figure>
+      <img src="../assets/images/HemiSecHardware.jpg"
+           class="img-fluid rounded shadow"
+           alt="HemiSec hardware prototype">
+      <figcaption class="mt-2 text-muted">
+        Hardware prototype and Raspberry Pi integration
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-4">
+    <figure>
+      <img src="../assets/images/HemiSecCase.jpg"
+           class="img-fluid rounded shadow"
+           alt="HemiSec PLA enclosure">
+      <figcaption class="mt-2 text-muted">
+        Custom PLA enclosure design
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-4">
+    <figure>
+      <img src="../assets/images/HemiSecIR.jpg"
+           class="img-fluid rounded shadow"
+           alt="Infrared palm scanning">
+      <figcaption class="mt-2 text-muted">
+        Infrared illumination system
+      </figcaption>
+    </figure>
+  </div>
+
+</div>
+
+
+
+<!-- Workflow -->
+
+<h3 class="mt-4">System Workflow</h3>
+
+
+<h4>1. Enrollment</h4>
+
+<p>
+  A new user creates an account through the application interface. The palm vein
+  scanner captures an infrared image of the user's palm and sends the image through
+  the processing pipeline to generate a unique biometric representation.
+</p>
+
+
+<h4>2. Image Processing Pipeline</h4>
+
+<p>
+  Raw infrared images are enhanced using multiple image processing filters to
+  improve vein visibility. The processed image is converted into a vein feature map,
+  allowing important biometric features within the region of interest (ROI) to be
+  extracted.
+</p>
+
+
+<!-- Image Processing Comparison -->
+
+<div class="row text-center my-4">
+
+  <div class="col-md-6">
+    <figure>
+      <img src="../assets/images/HemiSecRawImage.png"
+           class="img-fluid rounded shadow"
+           alt="Raw infrared palm image">
+      <figcaption class="mt-2 text-muted">
+        Raw infrared palm capture
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-6">
+    <figure>
+      <img src="../assets/images/HemiSecProcessed.png"
+           class="img-fluid rounded shadow"
+           alt="Processed vein feature map">
+      <figcaption class="mt-2 text-muted">
+        Enhanced vein feature map after processing
+      </figcaption>
+    </figure>
+  </div>
+
+</div>
+
+
+<h4>3. Authentication</h4>
+
+<p>
+  During authentication, the Raspberry Pi captures a new palm scan and repeats the
+  same enhancement and feature extraction pipeline. Extracted features are compared
+  against encrypted biometric data stored on the backend to determine identity.
+</p>
+
+
+<h4>4. User Interface</h4>
+
+<p>
+  A simple mobile-style interface allows users to quickly enroll, authenticate,
+  and manage their biometric profiles. The design prioritizes accessibility,
+  speed, and ease of use.
+</p>
+
+
+
+<!-- Design Process -->
+
+<h3 class="mt-4">Design Process & Engineering Decisions</h3>
+
+<p>
+  The design process focused on balancing security, portability, and reliability.
+  The Raspberry Pi platform was selected because it provided sufficient processing
+  capability while maintaining a compact form factor. The PLA enclosure was designed
+  to protect the electronics while keeping the scanner lightweight and portable.
+</p>
+
+<p>
+  <!-- Add your design justification details here -->
+  Future additions:
+  explain CAD iterations, enclosure design decisions, mounting methods,
+  hardware testing, and prototype improvements.
+</p>
+
+
+<!-- Additional Design Images -->
+
+<div class="text-center my-4">
+
+  <figure>
+    <img src="../assets/images/HemiSecCAD.png"
+         class="img-fluid rounded shadow"
+         alt="HemiSec CAD design"
+         style="max-width:65%;">
+    <figcaption class="mt-2 text-muted">
+      CAD model and enclosure development
+    </figcaption>
+  </figure>
+
+</div>
+
+
+
+<!-- Impact -->
+
+<h3 class="mt-4">Applications & Impact</h3>
+
+<p>
+  A portable palm vein authentication system provides a secure and convenient
+  alternative to traditional authentication methods.
+</p>
+
+<ul>
+  <li>
+    <strong>User Convenience:</strong>
+    Contactless authentication eliminates the need to remember passwords or carry
+    physical authentication tokens.
+  </li>
+
+  <li>
+    <strong>Portability:</strong>
+    A compact design enables deployment in environments such as access control,
+    mobile devices, and secure verification systems.
+  </li>
+
+  <li>
+    <strong>Security:</strong>
+    Palm vein patterns are internal biological features, making them significantly
+    harder to replicate compared to surface-level biometrics.
+  </li>
+</ul>
+
+
+
+<!-- Limitations -->
+
+<h3 class="mt-4">Limitations</h3>
+
+<ul>
+  <li>
+    Vein detection may become less reliable for individuals with worn or calloused skin.
+  </li>
+
+  <li>
+    Environmental lighting variations may affect image quality and accuracy.
+  </li>
+
+  <li>
+    The IR illumination system requires an external power source.
+  </li>
+
+  <li>
+    Infrared imaging can introduce image distortion requiring additional processing.
+  </li>
+</ul>
+
+
+
+<!-- Future Work -->
+
+<h3 class="mt-4">Future Development</h3>
+
+<ul>
+  <li>Design custom PCB components to further reduce system size.</li>
+  <li>Create a modular enclosure compatible with different phone platforms.</li>
+  <li>Improve camera selection and image capture quality.</li>
+  <li>Develop a more integrated external power solution.</li>
+  <li>Improve integration with Apple iOS devices.</li>
+</ul>
+
+
+
+<!-- Tools -->
+
+<h3 class="mt-4">Tools & Skills</h3>
+
+<ul>
+
+  <li>
+    <strong>Hardware:</strong>
+    Raspberry Pi, Arducam Camera, Infrared Sensors, Electronics Integration
+  </li>
+
+  <li>
+    <strong>Programming:</strong>
+    Python, Image Processing, Computer Vision
+  </li>
+
+  <li>
+    <strong>Design:</strong>
+    SolidWorks, CAD Modeling, 3D Printing, Rapid Prototyping
+  </li>
+
+  <li>
+    <strong>Engineering:</strong>
+    Hardware Architecture, System Integration, Prototype Development
+  </li>
+
+  <li>
+    <strong>Software:</strong>
+    <!-- Add your tools here -->
+  </li>
+
+</ul>
     <hr class="my-5">
 
     <h2>More Hackathons Coming Soon</h2>
     <p class="text-muted">
       This page will be updated with additional hackathons as I continue participating
-      in competitive, fast-paced engineering events. Next: (Jan 17th NexHacks)
+      in competitive, fast-paced engineering events.
     </p>
 
     <a href="../index.html" class="btn btn-primary mt-3">← Return to Home</a>
