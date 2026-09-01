@@ -12,12 +12,21 @@
   <!-- Navbar (reuse across all pages) -->
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
+
+    <!-- Website Name -->
     <a class="navbar-brand" href="../">Handsome Zheng</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- Navigation Links -->
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
 
@@ -26,25 +35,100 @@
           <a class="nav-link" href="../">Home</a>
         </li>
 
-        <!-- Coursework (NEW BUTTON) -->
+        <!-- Coursework -->
         <li class="nav-item">
-          <a class="nav-link" href="../projects/Coursework.html">Coursework</a>
+          <a class="nav-link" href="../projects/Coursework.html">
+            Coursework
+          </a>
+        </li>
+
+        <!-- Experience Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Experience
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+
+            <li>
+              <a class="dropdown-item" href="/projects/Joby.html">
+                Joby Aviation Internship
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/WSP.html">
+                WSP Internship
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/FoosballResearch.html">
+                Columbia Creative Research Lab
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/RITECMO.html">
+                RIT Day Labs
+              </a>
+            </li>
+
+          </ul>
         </li>
 
         <!-- Projects Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-            Experience
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Projects
           </a>
+
           <ul class="dropdown-menu dropdown-menu-end">
-            <a href="/projects/FoosballResearch.html">Columbia Creative Research Lab</a>
-            <a href="/projects/F1.html">FSAE Powertrain</a>
-            <a href="/projects/CRC.html">Combat Robotics</a>
-            <a href="/projects/WSP.html">WSP Internship</a>
-            <a href="/projects/RITECMO.html">RIT Day Labs</a>
-            <a href="/projects/RITVex.html">RIT VEXU Robotics</a>
-            <a href="/projects/Hackathons.html">Hackathons</a>
-            <a href="/projects/Joby.html">Joby Aviation Internship</a>
+
+            <li>
+              <a class="dropdown-item" href="/projects/F1.html">
+                FSAE Powertrain
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/CRC.html">
+                Combat Robotics
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/RITVex.html">
+                RIT VEXU Robotics
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/Hackathons.html">
+                Hackathons
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/Car.html">
+                Model Toy Car
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/SolarTracker.html">
+                2 Axis Solar Tracker
+              </a>
+            </li>
+
           </ul>
         </li>
 

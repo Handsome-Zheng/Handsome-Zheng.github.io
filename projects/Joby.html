@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,15 +10,24 @@
 </head>
 <body>
 
-  <!-- Navbar (reuse across all pages) -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
+
+    <!-- Website Name -->
     <a class="navbar-brand" href="../">Handsome Zheng</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- Navigation Links -->
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
 
@@ -26,25 +36,100 @@
           <a class="nav-link" href="../">Home</a>
         </li>
 
-        <!-- Coursework (NEW BUTTON) -->
+        <!-- Coursework -->
         <li class="nav-item">
-          <a class="nav-link" href="../projects/Coursework.html">Coursework</a>
+          <a class="nav-link" href="../projects/Coursework.html">
+            Coursework
+          </a>
+        </li>
+
+        <!-- Experience Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Experience
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+
+            <li>
+              <a class="dropdown-item" href="/projects/Joby.html">
+                Joby Aviation Internship
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/WSP.html">
+                WSP Internship
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/FoosballResearch.html">
+                Columbia Creative Research Lab
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/RITECMO.html">
+                RIT Day Labs
+              </a>
+            </li>
+
+          </ul>
         </li>
 
         <!-- Projects Dropdown -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-            Experience
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Projects
           </a>
+
           <ul class="dropdown-menu dropdown-menu-end">
-           <a href="/projects/FoosballResearch.html">Columbia Creative Research Lab</a>
-            <a href="/projects/F1.html">FSAE Powertrain</a>
-            <a href="/projects/CRC.html">Combat Robotics</a>
-            <a href="/projects/RITECMO.html">RIT Day Labs</a>
-            <a href="/projects/RITVex.html">RIT VEXU Robotics</a>
-            <a href="/projects/Hackathons.html">Hackathons</a>
-            <a href="/projects/WSP.html">WSP Internship</a>
-            <a href="/projects/Joby.html">Joby Aviation Internship</a>
+
+            <li>
+              <a class="dropdown-item" href="/projects/F1.html">
+                FSAE Powertrain
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/CRC.html">
+                Combat Robotics
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/RITVex.html">
+                RIT VEXU Robotics
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/Hackathons.html">
+                Hackathons
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/Car.html">
+                Model Toy Car
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/SolarTracker.html">
+                2 Axis Solar Tracker
+              </a>
+            </li>
+
           </ul>
         </li>
 
@@ -52,79 +137,316 @@
     </div>
   </div>
 </nav>
+  <!-- Internship Content -->
 
-  <!-- Project Content -->
   <section class="container my-5">
-    
-    <h1 class="mb-3">Joby Aviation</h1>
-    
-    <figure class="text-center my-3">
-  <img src="../assets/images/PortfolioJoby.jpg" class="img-fluid rounded shadow" alt="Joby Logo" style="max-width:40%;">
-  <figcaption class="mt-2 text-muted">Joby</figcaption>
-</figure>
-    <p>
-      <strong>Tenure</strong> - May 2026 to August 2026
-    </p>
 
-    
+```
+<h1 class="mb-3">Joby Aviation</h1>
 
-    <h2 class="mt-4">Role:</h2>
-    <p>
-      <strong>Technical Program Manager Flight Test Instrumentation Intern</strong> -
-
-    <h2 class="mt-4">Objectives:</h2>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    
-        <h2 class="mt-4">Tools &amp; Technologies &amp; Skills</h2>
-    <ul>
-      <li><strong>CAD:</strong>CATIA, Solidworks </li>
-      <li><strong>Programming:</strong> Python, SQL</li>
-      <li><strong>Software:</strong> LabView, Jira, Confluence, Smartsheet</li>
-      <li><strong>Skills:</strong> </li>
-    </ul>
-
-    <h2 class="mt-4">Contributions:</h2>
-
-
-    <h3>BOM Comparator Tool</h3>
-    <ul>
-      <li></li>
-      <li></li>
-      <li> </li>
-      <li><strong>Learned/Developed:</strong> </li>
-    </ul>
-    
-
-
-    <h3>Sensor Calibration</h3>
-    <ul>
-      <li>Developed sensor calibration dashboard that</li>
-      <li>Modelled and procured parts for sensor brackets and harness clamps considering weight, stability, ...</li>
-      <li>Collected and analyzed sensor data for calibration purposes</li>
-      <li><strong>Learned/Developed: </strong>  </li>
-    </ul>
-
-    <h3>Team Management</h3>
-    <ul>
-      <li>Developed inventory management tools in python with the help of Claude to streamline part search up and inventory management for design engineers</li>
-      <li> </li>
-      <li></li>
-      <li><strong>Learned/Developed: </strong>  </li>
-    </ul>
-  
-<figure class="text-center my-3">
-  <img src="../assets/images/" class="img-fluid rounded shadow" alt="" style="max-width:30%;">
-  <figcaption class="mt-2 text-muted"></figcaption>
+<figure class="text-center my-4">
+  <img src="../assets/images/PortfolioJoby.jpg"
+       class="img-fluid rounded shadow"
+       alt="Joby Aviation"
+       style="max-width:40%;">
+  <figcaption class="mt-2 text-muted">Joby Aviation</figcaption>
 </figure>
 
-    <a href="../index.html" class="btn btn-primary mt-3">← Return to Home</a>
+<p>
+  <strong>Tenure:</strong> May 2026 – August 2026
+</p>
+
+
+<!-- Role -->
+<h2 class="mt-5">Role</h2>
+
+<p>
+  <strong>Technical Program Manager – Flight Test Instrumentation Intern</strong>
+</p>
+
+<p>
+  Supported Joby Aviation's Flight Test Instrumentation (FTI) team across
+  four aircraft, coordinating engineering, manufacturing, instrumentation,
+  and flight test activities from design through implementation and
+  approval.
+</p>
+
+
+<!-- Tools -->
+<h2 class="mt-5">Tools &amp; Technologies</h2>
+
+<ul>
+  <li><strong>Engineering:</strong> CATIA, ENOVIA, GD&amp;T, Structural Analysis, CAD</li>
+  <li><strong>Programming &amp; Data:</strong> Python, SQL, PySpark, Databricks</li>
+  <li><strong>Engineering Software:</strong> LabVIEW, Jira, Confluence, Smartsheet</li>
+  <li><strong>Hardware:</strong> Strain Gauges, Accelerometers, OAT Sensors, Thermocouples, Air Data Booms, DAQ Systems</li>
+  <li><strong>Program Management:</strong> Scheduling, Design Reviews, Engineering Change Requests, BOM Management, Procurement, Inventory Tracking</li>
+</ul>
+
+
+<!-- Contributions -->
+<h2 class="mt-5">Contributions</h2>
+
+
+<!-- BOM Comparator -->
+<h3 class="mt-4">BOM Smartsheet Comparator</h3>
+
+<p>
+  Developed an internal cross-functional tool that reconciled the
+  source-of-truth aircraft BOM against eight engineering team Smartsheet
+  schedules. The tool identified parts that were missing from schedules,
+  incorrectly formatted, overdue, or not aligned with current design
+  revisions.
+</p>
+
+<ul>
+  <li>
+    Built Python, SQL, and PySpark data-processing tools in Databricks to
+    standardize engineering schedule data from eight Smartsheet project
+    trackers.
+  </li>
+
+  <li>
+    Developed an ETL pipeline that extracted part numbers, revisions,
+    dates, completion percentages, assignees, and schedule information from
+    inconsistent human-entered Smartsheet data.
+  </li>
+
+  <li>
+    Connected CATIA BOM data with Smartsheet schedules through Databricks,
+    Lakebase/Postgres, a backend API, and a React frontend to create a
+    continuously updated engineering view.
+  </li>
+
+  <li>
+    Created automated checks that identified unreleased parts missing from
+    PM schedules, overdue work, revision mismatches, and incomplete
+    schedule coverage.
+  </li>
+
+  <li>
+    Replaced a manually cross-referenced Excel process covering 15 BOMs
+    and eight schedules with an automated workflow that could be run with
+    a single click.
+  </li>
+
+  <li>
+    Added ownership, schedule source, engineering contact, maturity,
+    start/finish dates, completion status, and revision information to
+    improve accountability across engineering teams.
+  </li>
+
+  <li>
+    Deployed a Streamlit interface so non-technical program managers could
+    generate reports without accessing the command line.
+  </li>
+
+  <li>
+    <strong>Impact:</strong> Reduced manual schedule and BOM reconciliation
+    while giving program managers a centralized way to identify missing
+    work, overdue designs, and schedule discrepancies.
+  </li>
+</ul>
+
+
+<!-- Calibration Tracker -->
+<h3 class="mt-5">Sensor Calibration Tracker</h3>
+
+<p>
+  Digitized and automated the Flight Test Instrumentation team's sensor
+  calibration records to improve accessibility, traceability, and
+  compliance during aircraft flight testing.
+</p>
+
+<ul>
+  <li>
+    Converted physical calibration records stored in the FTI team's
+    inventory into a centralized digital database.
+  </li>
+
+  <li>
+    Developed a dashboard to track sensor model numbers, locations,
+    purchasers, calibration dates, and aircraft assignments.
+  </li>
+
+  <li>
+    Implemented automated alerts for sensors approaching the three-month
+    calibration threshold and requiring recalibration.
+  </li>
+
+  <li>
+    Allowed engineers to add, remove, and update sensors as instrumentation
+    configurations changed during aircraft development and testing.
+  </li>
+
+  <li>
+    Improved traceability of sensor calibration records supporting flight
+    test activities, FAA compliance, and aircraft Type Certification.
+  </li>
+
+  <li>
+    <strong>Impact:</strong> Replaced a physical-only recordkeeping process
+    with an accessible and maintainable digital tracking system for
+    flight-test instrumentation.
+  </li>
+</ul>
+
+
+<!-- Aircraft Instrumentation -->
+<h3 class="mt-5">Aircraft Instrumentation &amp; Mechanical Design</h3>
+
+<p>
+  Supported the design and implementation of flight test instrumentation
+  across SN101, SN102, SN103, and SN104, working with mechanical,
+  electrical, structural, test, and aircraft technician teams.
+</p>
+
+<ul>
+  <li>
+    Supported instrumentation installation and integration for strain
+    gauges, accelerometers, OAT sensors, thermocouples, air data booms,
+    and DAQ systems.
+  </li>
+
+  <li>
+    Performed GD&amp;T reviews and engineering sanity checks on aircraft
+    hardware and instrumentation drawings.
+  </li>
+
+  <li>
+    Supported the design of sensor brackets, braces, wire harness clamps,
+    camera mounts, and other flight-test hardware.
+  </li>
+
+  <li>
+    Contributed to instrumentation configurations for SN102 and SN103,
+    including DAQ chassis and harness clamp designs.
+  </li>
+
+  <li>
+    Performed structural calculations and engineering checks including
+    stress, shear, moment, beam, and vibration analyses to support design
+    validation.
+  </li>
+
+  <li>
+    Reviewed designs with structural and test engineers to verify
+    manufacturability, structural feasibility, and installation
+    requirements.
+  </li>
+
+  <li>
+    Worked directly with aircraft technicians to support hardware
+    installation and verify installations against engineering drawings.
+  </li>
+</ul>
+
+
+<!-- Program Management -->
+<h3 class="mt-5">Technical Program Management</h3>
+
+<ul>
+  <li>
+    Managed and delegated engineering activities across a 20+ person FTI
+    team, tracking priorities, deliverables, blockers, and program
+    milestones.
+  </li>
+
+  <li>
+    Led weekly stand-ups and cross-functional meetings covering design
+    progress, aircraft configurations, schedule risks, and engineering
+    blockers.
+  </li>
+
+  <li>
+    Coordinated design reviews and engineering approvals across mechanical,
+    electrical, structural, software, and test engineering teams.
+  </li>
+
+  <li>
+    Reviewed engineering change requests, CAD designs, drawings, BOMs,
+    and code changes to ensure designs and engineering data remained
+    aligned.
+  </li>
+
+  <li>
+    Held approval authority for engineering change requests affecting
+    finalized or installed aircraft designs.
+  </li>
+
+  <li>
+    Escalated blockers, assigned appropriate engineering reviewers, and
+    coordinated reviews to accelerate design timelines.
+  </li>
+
+  <li>
+    Supported procurement and manufacturing activities by ordering parts,
+    tracking inventory, coordinating in-house manufacturing runs, and
+    monitoring part delivery timelines.
+  </li>
+</ul>
+
+
+<!-- Additional Automation -->
+<h3 class="mt-5">Engineering Automation &amp; Data Tools</h3>
+
+<ul>
+  <li>
+    Developed Python utilities to analyze flattened BOMs and identify
+    which parts required procurement versus parts already available or
+    unnecessary.
+  </li>
+
+  <li>
+    Built engineering dashboards and data-processing scripts to improve
+    visibility into BOM releases, calibration records, inventory,
+    schedules, and aircraft instrumentation.
+  </li>
+
+  <li>
+    Used Databricks, SQL, PySpark, and Python to move and transform
+    engineering data between Smartsheet, Databricks, Lakebase/Postgres,
+    backend services, and frontend applications.
+  </li>
+
+  <li>
+    Automated repetitive engineering workflows to reduce manual data
+    entry and improve consistency across teams.
+  </li>
+</ul>
+
+
+<!-- Overall Impact -->
+<h2 class="mt-5">Overall Impact</h2>
+
+<p>
+  My work helped connect engineering design, program management,
+  manufacturing, procurement, and flight test activities across four
+  aircraft. The software tools I developed reduced manual data
+  reconciliation, improved schedule visibility, and gave engineers and
+  program managers more reliable information for decision-making.
+</p>
+
+<p>
+  In parallel with software development, I gained hands-on experience with
+  aircraft instrumentation, mechanical design, GD&amp;T, engineering
+  analysis, procurement, manufacturing, and technical program management,
+  supporting aircraft from concept and design through installation,
+  flight testing, and approval activities.
+</p>
+
+
+<!-- Return -->
+<a href="../index.html" class="btn btn-primary mt-4">
+  ← Return to Home
+</a>
+```
+
   </section>
 
   <!-- Bootstrap JS -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
