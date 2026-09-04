@@ -1,612 +1,841 @@
 <!DOCTYPE html>
 
-<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Model Toy Car - Materials & Manufacturing</title> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> </head> <body>
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Model Toy Car - Materials & Manufacturing</title>
 
-<!-- Navbar -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+<body>
 
-    <!-- Website Name -->
-    <a class="navbar-brand" href="../">Handsome Zheng</a>
+<!-- ========================================================= -->
 
-    <!-- Mobile Menu Button -->
-    <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<!-- NAVBAR -->
 
-    <!-- Navigation Links -->
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
+<!-- ========================================================= -->
 
-        <!-- Home -->
-        <li class="nav-item">
-          <a class="nav-link" href="../">Home</a>
-        </li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <div class="container-fluid">
 
-        <!-- Coursework -->
-        <li class="nav-item">
-          <a class="nav-link" href="../projects/Coursework.html">
-            Coursework
+<a class="navbar-brand" href="../">Handsome Zheng</a>
+
+<button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav ms-auto">
+
+    <li class="nav-item">
+      <a class="nav-link" href="../">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="../projects/Coursework.html">
+        Coursework
+      </a>
+    </li>
+
+    <!-- Experience Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle"
+         href="#"
+         role="button"
+         data-bs-toggle="dropdown"
+         aria-expanded="false">
+        Experience
+      </a>
+
+      <ul class="dropdown-menu dropdown-menu-end">
+
+        <li>
+          <a class="dropdown-item" href="/projects/Joby.html">
+            Joby Aviation Internship
           </a>
         </li>
 
-        <!-- Experience Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"
-             href="#"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false">
-            Experience
+        <li>
+          <a class="dropdown-item" href="/projects/WSP.html">
+            WSP Internship
           </a>
-
-          <ul class="dropdown-menu dropdown-menu-end">
-
-            <li>
-              <a class="dropdown-item" href="/projects/Joby.html">
-                Joby Aviation Internship
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/WSP.html">
-                WSP Internship
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/FoosballResearch.html">
-                Columbia Creative Research Lab
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/RITECMO.html">
-                RIT Day Labs
-              </a>
-            </li>
-
-          </ul>
         </li>
 
-        <!-- Projects Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"
-             href="#"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false">
-            Projects
+        <li>
+          <a class="dropdown-item" href="/projects/FoosballResearch.html">
+            Columbia Creative Research Lab
           </a>
+        </li>
 
-          <ul class="dropdown-menu dropdown-menu-end">
-
-            <li>
-              <a class="dropdown-item" href="/projects/F1.html">
-                FSAE Powertrain
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/CRC.html">
-                Combat Robotics
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/RITVex.html">
-                RIT VEXU Robotics
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/Hackathons.html">
-                Hackathons
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/Car.html">
-                Model Toy Car
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="/projects/SolarTracker.html">
-                2 Axis Solar Tracker
-              </a>
-            </li>
-
-          </ul>
+        <li>
+          <a class="dropdown-item" href="/projects/RITECMO.html">
+            RIT Day Labs
+          </a>
         </li>
 
       </ul>
-    </div>
-  </div>
-</nav>
+    </li>
+
+    <!-- Projects Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle"
+         href="#"
+         role="button"
+         data-bs-toggle="dropdown"
+         aria-expanded="false">
+        Projects
+      </a>
+
+      <ul class="dropdown-menu dropdown-menu-end">
+
+        <li>
+          <a class="dropdown-item" href="/projects/F1.html">
+            FSAE Powertrain
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="/projects/CRC.html">
+            Combat Robotics
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="/projects/RITVex.html">
+            RIT VEXU Robotics
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="/projects/Hackathons.html">
+            Hackathons
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="/projects/Car.html">
+            Model Toy Car
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="/projects/SolarTracker.html">
+            2 Axis Solar Tracker
+          </a>
+        </li>
+
+      </ul>
+    </li>
+
+  </ul>
+</div>
+
+</div> </nav>
 
 <section class="container my-5">
 
-<!-- Project Header -->
+<!-- ========================================================= -->
+
+<!-- PROJECT HEADER -->
+
+<!-- ========================================================= -->
+
 <h1 class="mb-3">Peugeot 1914 Grand Prix Model Car</h1>
 
-<figure class="text-center my-4">
-  <img src="../assets/images/portfolioCar3.jpg"
-       class="img-fluid rounded shadow"
-       alt="Manufactured Peugeot 1914 Grand Prix model car"
-       style="max-width:60%;">
+<figure class="text-center my-4"> <img src="../assets/images/portfolioCar3.jpg" class="img-fluid rounded shadow" alt="Manufactured Peugeot 1914 Grand Prix model car" style="max-width:60%;">
+
+<figcaption class="mt-2 text-muted"> Manufactured Peugeot 1914 Grand Prix Model Car Final Product </figcaption> </figure>
+
+<p> <strong>Project Overview</strong>: Materials and Manufacturing project focused on taking a historic race car from CAD design through physical manufacturing and then developing a complete manufacturing process and engineering analysis. The project was divided into two parts: hands-on model car manufacturing and in-depth manufacturing process analysis. </p>
+
+<!-- ========================================================= -->
+
+<!-- PART 1 -->
+
+<!-- ========================================================= -->
+
+<div class="text-center my-5"> <h2 class="d-inline-block px-4 py-3 bg-dark text-white rounded shadow"> Part 1: Model Car Design &amp; Manufacturing </h2> </div>
+
+<p> The first part of the project focused on designing and fabricating a scale model of the Duesenberg 1921 Grand Prix. The project applied CAD, additive manufacturing, molding, casting, machining, and injection molding to create the major components of the final model. </p>
+
+<!-- ========================================================= -->
+
+<!-- PROJECT OBJECTIVES -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">Project Objectives</h3>
+
+<ul> <li>Research and develop a CAD model of the Duesenberg 1921 Grand Prix.</li> <li>Design the car body, cockpit, wheels, axles, and supporting components.</li> <li>Develop a mold for manufacturing the car body.</li> <li>3D print the body mold and other required components.</li> <li>Design and manufacture a mold for producing the wheels.</li> <li>Apply casting, machining, injection molding, and additive manufacturing processes.</li> <li>Assemble the manufactured components into a finished scale model.</li> </ul>
+
+<!-- ========================================================= -->
+
+<!-- FINAL MODEL -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">Final Model</h3>
+
+<div class="row text-center my-4">
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/portfolioCar6.jpg" class="img-fluid rounded shadow" alt="Duesenberg 1921 Grand Prix reference car" style="width: 100%; height: 350px; object-fit: cover;">
+
   <figcaption class="mt-2 text-muted">
-    Manufactured Peugeot 1914 Grand Prix Model Car
+    Duesenberg 1921 Grand Prix — Reference
   </figcaption>
 </figure>
 
-<p>
-  <strong>Project Overview</strong> — Individual Materials and Manufacturing project
-  focused on taking a historic race car from CAD design through physical manufacturing
-  and then developing a complete manufacturing process and engineering analysis.
-  The project was divided into two parts: hands-on model car manufacturing and
-  individual manufacturing process analysis.
-</p>
+</div>
 
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/portfolioCar7.jpg" class="img-fluid rounded shadow" alt="Finished Duesenberg 1921 Grand Prix scale model" style="width: 100%; height: 350px; object-fit: cover;">
+
+  <figcaption class="mt-2 text-muted">
+    Finished Scale Model
+  </figcaption>
+</figure>
+
+</div>
+
+</div>
 
 <!-- ========================================================= -->
-<!-- PART 1 -->
+
+<!-- CAD DESIGN -->
+
 <!-- ========================================================= -->
 
-<h2 class="mt-5">Part 1: Model Car Design &amp; Manufacturing</h2>
+<h3 class="mt-4">CAD Design</h3>
 
-<p>
-  The first part of the project focused on the hands-on design and manufacturing of
-  a scale model of the Peugeot 1914 Grand Prix car. I designed the model in CAD,
-  developed the individual components and manufacturing approach, and produced the
-  physical model through a combination of 3D printing, molding, machining, and
-  assembly processes.
-</p>
+<p> The car was developed as a multi-component CAD assembly, with separate geometry for the body, cockpit, wheels, and axles. The design process used the geometry of the original vehicle as a reference while adapting the components for manufacturing at a smaller scale. </p>
 
-<h3 class="mt-4">Design &amp; Manufacturing Objectives</h3>
-<ul>
-  <li>Develop a 1:30 scale model of the Peugeot 1914 Grand Prix car based on its original proportions.</li>
-  <li>Create a distinctive wheel design with modified spoke geometry compared with the original group design.</li>
-  <li>Design the model around manufacturing constraints including draft, parting lines, assembly, and material selection.</li>
-  <li>3D print patterns, molds, and internal components required for manufacturing.</li>
-  <li>Manufacture and assemble the final model using a combination of casting, molding, machining, and additive manufacturing.</li>
-</ul>
+<div class="row text-center my-4">
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/portfolioCar13.png" class="img-fluid rounded shadow" alt="CAD model of Duesenberg 1921 Grand Prix car body">
+
+  <figcaption class="mt-2 text-muted">
+    CAD Model — Car Body
+  </figcaption>
+</figure>
+
+</div>
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/portfolioCar15.png" class="img-fluid rounded shadow" alt="CAD model of the car body mold">
+
+  <figcaption class="mt-2 text-muted">
+    CAD Model — Car Body Mold
+  </figcaption>
+</figure>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- BODY MOLD -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">Car Body Mold</h3>
+
+<p> The car body mold was designed around the CAD geometry of the vehicle. The mold incorporated the necessary features for casting, including the separation between mold halves and provisions for material flow and air removal. The mold was then 3D printed and used to produce the car body. </p>
+
+<div class="row text-center my-4">
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/portfolioCar14.jpg" class="img-fluid rounded shadow" alt="Molded Car Body">
+
+  <figcaption class="mt-2 text-muted">
+    Molded Car Body
+  </figcaption>
+</figure>
+
+</div>
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/portfolioCar9.jpg" class="img-fluid rounded shadow" alt="3D printed mold for the car body">
+
+  <figcaption class="mt-2 text-muted">
+    3D Printed Car Body Mold
+  </figcaption>
+</figure>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- MANUFACTURING PROCESS -->
+
+<!-- ========================================================= -->
 
 <h3 class="mt-4">Design &amp; Fabrication Process</h3>
+
 <ul>
-  <li><strong>CAD Design:</strong> Developed the Peugeot 1914 Grand Prix model in CAD at a 1:30 scale, including the body, wheels, axles, cockpit, and internal components.</li>
-  <li><strong>3D Printing:</strong> Manufactured PLA patterns and internal components using FDM 3D printing.</li>
-  <li><strong>Molding:</strong> Created molds and patterns for the cast and molded components while accounting for parting lines, draft, and component geometry.</li>
-  <li><strong>Metal Manufacturing:</strong> Manufactured the metal body using the selected casting process and performed post-processing to remove gates, flash, and visible parting lines.</li>
-  <li><strong>Wheel Manufacturing:</strong> Produced the model wheels using a molded polymer manufacturing process.</li>
-  <li><strong>Machining:</strong> Prepared and finished components using conventional machining and fabrication processes where required.</li>
-  <li><strong>Assembly:</strong> Integrated the body, cockpit, wheels, axles, and internal components into the final display model.</li>
+
+<li> <strong>CAD Design:</strong> Developed the Duesenberg 1921 Grand Prix model in CAD, including the body, cockpit, wheels, axles, and internal components. </li>
+
+<li> <strong>Body Mold Design:</strong> Created the CAD geometry for the car body mold around the finished vehicle geometry. </li>
+
+<li> <strong>3D Printing:</strong> Manufactured the car body mold and other required components using FDM 3D printing. </li>
+
+<li> <strong>Silicone Casting:</strong> Used the printed mold to cast the car body in silicone. </li>
+
+<li> <strong>Wheel Mold Design:</strong> Designed the wheel mold using the wheel CAD geometry and incorporated the features required for injection molding. </li>
+
+<li> <strong>CAM &amp; Machining:</strong> Developed CAM toolpaths and machined the wheel mold from aluminum stock. </li>
+
+<li> <strong>Injection Molding:</strong> Used the machined wheel mold to manufacture the model wheels through injection molding. </li>
+
+<li> <strong>Assembly:</strong> Integrated the body, cockpit, wheels, axles, and internal components into the completed scale model. </li>
+
 </ul>
+
+<!-- ========================================================= -->
+
+<!-- WHEEL MOLD -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">Wheel Mold Design &amp; Manufacturing</h3>
+
+<p> The wheel manufacturing process required designing a dedicated mold and translating the CAD geometry into a manufacturable aluminum mold. The mold was programmed using CAM and machined before being used for injection molding. </p>
+
+<div class="row text-center my-4">
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/WheelMoldCAD.jpg" class="img-fluid rounded shadow" alt="CAD model of aluminum wheel mold">
+
+  <figcaption class="mt-2 text-muted">
+    CAD — Wheel Mold
+  </figcaption>
+</figure>
+
+</div>
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/WheelMoldManufacturing.jpg" class="img-fluid rounded shadow" alt="Manufacturing process for the wheel mold">
+
+  <figcaption class="mt-2 text-muted">
+    Manufacturing the Wheel Mold
+  </figcaption>
+</figure>
+
+</div>
+
+</div>
+
+<div class="row text-center my-4">
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/AluminumWheelMold.jpg" class="img-fluid rounded shadow" alt="Finished machined aluminum wheel mold">
+
+  <figcaption class="mt-2 text-muted">
+    Machined Aluminum Wheel Mold
+  </figcaption>
+</figure>
+
+</div>
+
+<div class="col-md-6 mb-4"> <figure> <img src="../assets/images/ManufacturedWheel.jpg" class="img-fluid rounded shadow" alt="Injection molded model car wheel">
+
+  <figcaption class="mt-2 text-muted">
+    Injection Molded Wheel
+  </figcaption>
+</figure>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- MATERIALS -->
+
+<!-- ========================================================= -->
 
 <h3 class="mt-4">Materials &amp; Manufacturing Processes</h3>
 
 <div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-      <tr>
-        <th>Component</th>
-        <th>Material</th>
-        <th>Manufacturing Process</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Body</td>
-        <td>Aluminum A356</td>
-        <td>Sand Casting</td>
-      </tr>
-      <tr>
-        <td>Wheels</td>
-        <td>Polypropylene (PP)</td>
-        <td>Injection Molding</td>
-      </tr>
-      <tr>
-        <td>Axles</td>
-        <td>AISI 1018 Steel</td>
-        <td>Cutting, Deburring &amp; Assembly</td>
-      </tr>
-      <tr>
-        <td>Chassis / Internal Components</td>
-        <td>PLA</td>
-        <td>FDM 3D Printing</td>
-      </tr>
-      <tr>
-        <td>Body Pattern</td>
-        <td>PLA</td>
-        <td>FDM 3D Printing</td>
-      </tr>
-    </tbody>
-  </table>
+
+<table class="table table-bordered table-striped">
+
+<thead>
+  <tr>
+    <th>Component</th>
+    <th>Material</th>
+    <th>Manufacturing Process</th>
+  </tr>
+</thead>
+
+<tbody>
+
+  <tr>
+    <td>Car Body</td>
+    <td>Silicone</td>
+    <td>Silicone Casting</td>
+  </tr>
+
+  <tr>
+    <td>Cockpit</td>
+    <td>PLA</td>
+    <td>FDM 3D Printing</td>
+  </tr>
+
+  <tr>
+    <td>Wheels</td>
+    <td>Plastic</td>
+    <td>Injection Molding</td>
+  </tr>
+
+  <tr>
+    <td>Axles</td>
+    <td>Metal</td>
+    <td>Cutting, Deburring &amp; Assembly</td>
+  </tr>
+
+  <tr>
+    <td>Body Mold</td>
+    <td>PLA</td>
+    <td>FDM 3D Printing</td>
+  </tr>
+
+  <tr>
+    <td>Wheel Mold</td>
+    <td>Aluminum</td>
+    <td>CAM &amp; CNC Machining</td>
+  </tr>
+
+</tbody>
+
+</table>
+
 </div>
+
+<!-- ========================================================= -->
+
+<!-- SKILLS -->
+
+<!-- ========================================================= -->
 
 <h3 class="mt-4">Manufacturing Skills Developed</h3>
-<ul>
-  <li>CAD modeling and design for manufacturing</li>
-  <li>FDM 3D printing and rapid prototyping</li>
-  <li>Sand mold and pattern preparation</li>
-  <li>Metal casting and post-processing</li>
-  <li>Injection molding process planning</li>
-  <li>Machining and fabrication</li>
-  <li>Part finishing and assembly</li>
-  <li>Design iteration based on manufacturing constraints</li>
-</ul>
 
-<div class="row text-center my-4">
-  <div class="col-md-6">
-    <figure>
-      <img src="../assets/images/portfolioCar3.jpg"
-           class="img-fluid rounded shadow"
-           alt="Finished Peugeot model car">
-      <figcaption class="mt-2 text-muted">
-        Finished Model Car
-      </figcaption>
-    </figure>
-  </div>
-
-  <div class="col-md-6">
-    <figure>
-      <img src="../assets/images/portfolioCar3.jpg"
-           class="img-fluid rounded shadow"
-           alt="Peugeot model car manufacturing">
-      <figcaption class="mt-2 text-muted">
-        Manufactured Model
-      </figcaption>
-    </figure>
-  </div>
-</div>
-
+<ul> <li>CAD modeling and assembly design</li> <li>Design for manufacturing</li> <li>FDM 3D printing and rapid prototyping</li> <li>Silicone mold and casting preparation</li> <li>CAM toolpath development</li> <li>Aluminum CNC machining</li> <li>Injection molding</li> <li>Manufacturing process planning</li> <li>Part finishing and assembly</li> <li>Design iteration based on manufacturing constraints</li> </ul>
 
 <!-- ========================================================= -->
+
 <!-- PART 2 -->
+
 <!-- ========================================================= -->
 
-<h2 class="mt-5">Part 2: Manufacturing Process &amp; Engineering Analysis</h2>
+<div class="text-center my-5">
 
-<p>
-  The second part of the project expanded beyond the physical model and focused on
-  developing and analyzing a complete manufacturing system for the Peugeot 1914
-  Grand Prix model. I evaluated manufacturing processes, selected materials,
-  designed tooling, and performed engineering calculations to validate the proposed
-  casting and injection molding systems.
-</p>
+<div class="text-center my-5"> <h2 class="d-inline-block px-4 py-3 bg-dark text-white rounded shadow"> Part 2: Engineering Design &amp; Manufacturing Analysis </h2> </div>
 
-<h3 class="mt-4">Requirements &amp; Design Assumptions</h3>
-
-<ul>
-  <li><strong>Project Car:</strong> Peugeot 1914 Grand Prix</li>
-  <li><strong>Scale:</strong> 1:30</li>
-  <li><strong>Target Quantity:</strong> 1 model</li>
-  <li><strong>Body Material:</strong> Aluminum A356</li>
-  <li><strong>Body Process:</strong> Sand Casting</li>
-  <li><strong>Wheel Material:</strong> Polypropylene (PP)</li>
-  <li><strong>Wheel Process:</strong> Injection Molding</li>
-  <li><strong>Axle Material:</strong> AISI 1018 Steel</li>
-  <li><strong>Pattern Material:</strong> PLA</li>
-  <li><strong>Draft Angle:</strong> 2–5° for sand casting surfaces</li>
-</ul>
-
-<h3 class="mt-4">Manufacturing Process Selection</h3>
-
-<p>
-  Sand casting was selected for the aluminum body because the project requires only
-  one model and therefore does not justify the tooling cost of high-pressure die
-  casting. Sand casting also accommodates the complex geometry of the automotive
-  body while allowing the mold and pattern to be produced relatively quickly.
-</p>
-
-<div class="table-responsive">
-  <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Criteria</th>
-        <th>Sand Casting</th>
-        <th>High Pressure Die Casting</th>
-        <th>Investment Casting</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Tooling Cost</td>
-        <td>4</td>
-        <td>1</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Production Volume</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>Part Complexity</td>
-        <td>3</td>
-        <td>4</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <td>Lead Time</td>
-        <td>4</td>
-        <td>1</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Surface Finish</td>
-        <td>2</td>
-        <td>4</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <th>Total</th>
-        <th>17</th>
-        <th>13</th>
-        <th>15</th>
-      </tr>
-    </tbody>
-  </table>
 </div>
 
-<h3 class="mt-4">A356 Aluminum Selection</h3>
+<p> The second half of the project focused on developing the engineering and manufacturing systems required to produce the car. Manufacturing processes and materials were evaluated based on the project requirements, followed by CAD-based analysis and engineering calculations to design and verify the casting and injection molding systems. </p>
 
-<p>
-  A356 aluminum was selected for the body because of its excellent castability,
-  fluidity, strength-to-weight ratio, and suitability for sand casting. Compared
-  with 1060 aluminum and Zamak 3, A356 provided the best overall combination of
-  casting performance and mechanical properties for the application.
-</p>
+<p> The overall workflow was process selection → material selection → tooling design → engineering analysis → design verification → manufacturing. </p>
 
-<div class="table-responsive">
-  <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Criteria</th>
-        <th>1060 Aluminum</th>
-        <th>A356 Aluminum</th>
-        <th>Zamak 3</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Castability</td>
-        <td>2</td>
-        <td>4</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>Fluidity</td>
-        <td>2</td>
-        <td>4</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <td>Cost</td>
-        <td>4</td>
-        <td>3</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Sand Casting Suitability</td>
-        <td>1</td>
-        <td>4</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>Weight</td>
-        <td>4</td>
-        <td>3</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <th>Total</th>
-        <th>13</th>
-        <th>18</th>
-        <th>12</th>
-      </tr>
-    </tbody>
-  </table>
+<div class="alert alert-secondary"> <strong>Engineering Focus:</strong> Process selection, material selection, CAD-based design, sand casting, injection molding, gating and riser design, fluid mechanics, mold design, design for manufacturing, and quantitative process verification. </div>
+
+<!-- ========================================================= -->
+
+<!-- ANALYSIS CAD IMAGE -->
+
+<!-- ========================================================= -->
+
+<div class="row mt-3 justify-content-center">
+
+<div class="col-md-8">
+
+<figure>
+
+  <img src="../assets/images/portfolioCar4.JPG"
+       class="img-fluid rounded shadow"
+       alt="Car CAD model created for manufacturing analysis"
+       style="width: 100%; height: 400px; object-fit: contain;">
+
+  <figcaption class="mt-2 text-muted text-center">
+    Car CAD Created for Analysis
+  </figcaption>
+
+</figure>
+
 </div>
 
-
-<!-- Casting Analysis -->
-
-<h3 class="mt-4">Sand Casting Mold &amp; Gating Analysis</h3>
-
-<p>
-  The casting system was designed around a two-part sand mold using a 3D-printed
-  PLA pattern. The parting line was positioned near the widest cross-section of the
-  body to allow the pattern to be removed with a straight pull while minimizing
-  undercuts. The gating system was designed for gravity-fed filling, with the
-  sprue located at the top of the mold and vents positioned at high points of the
-  cavity.
-</p>
-
-<ul>
-  <li><strong>Casting Volume:</strong> 5.76 in³</li>
-  <li><strong>Surface Area:</strong> 33.54 in²</li>
-  <li><strong>Casting Modulus:</strong> 0.172 in</li>
-  <li><strong>Riser Modulus:</strong> 0.224 in</li>
-  <li><strong>Riser Diameter:</strong> 1.12 in</li>
-  <li><strong>Riser Height:</strong> 1.12 in</li>
-  <li><strong>Estimated Fill Time:</strong> 2.0 s</li>
-  <li><strong>Initial Volumetric Flow Rate:</strong> 2.88 in³/s</li>
-  <li><strong>Redesigned Gate Area:</strong> 0.073 in²</li>
-  <li><strong>Maximum Gate Velocity:</strong> 39.37 in/s</li>
-</ul>
-
-<p>
-  The gating system was revised after the initial velocity calculation exceeded
-  the target ingate velocity. Increasing the gate area reduced the predicted flow
-  velocity to remain within the design constraint and reduce the risk of sand
-  erosion during filling.
-</p>
-
-
-<!-- Injection Mold -->
-
-<h3 class="mt-4">Wheel Injection Mold Design</h3>
-
-<p>
-  A separate tooling analysis was performed for the model wheels. A single-cavity,
-  two-plate aluminum mold was selected because the project is intended for low-volume
-  prototype production. The wheel was designed around a center-plane parting line
-  with an edge gate positioned on the non-cosmetic inner face near the hub.
-</p>
-
-<ul>
-  <li><strong>Mold Configuration:</strong> Single cavity</li>
-  <li><strong>Mold Type:</strong> Two-plate mold</li>
-  <li><strong>Gate:</strong> Edge gate on inner wheel face</li>
-  <li><strong>Ejection:</strong> Manual demolding with four optional ejector pins</li>
-  <li><strong>Ejector Pin Diameter:</strong> 0.05 in</li>
-  <li><strong>Cooling:</strong> Four longitudinal cooling channels</li>
-  <li><strong>Draft Angle:</strong> 2°</li>
-</ul>
-
-<h3 class="mt-4">Injection Mold Machining Plan</h3>
-
-<ol>
-  <li>Use an edge finder to establish the machining origin.</li>
-  <li>Spot drill locations for alignment pins.</li>
-  <li>Drill alignment-pin holes.</li>
-  <li>Rough the cavity using a 1/4-inch end mill.</li>
-  <li>Finish the cavity, runners, gates, and ejector features using a 1/8-inch end mill.</li>
-</ol>
-
-<p>
-  Estimated machining time for one mold half was approximately
-  <strong>25 minutes 55 seconds</strong>, assuming efficient tool changes and
-  machining operations.
-</p>
-
-
-<!-- Injection Molding Analysis -->
-
-<h3 class="mt-4">Injection Molding Process Analysis</h3>
-
-<p>
-  The mold was subsequently analyzed as an ABS injection molding system. The
-  analysis included shrinkage compensation, shot volume, shot mass, clamping force,
-  cooling time, machine requirements, and overall cycle time.
-</p>
-
-<div class="table-responsive">
-  <table class="table table-bordered table-striped">
-    <thead>
-      <tr>
-        <th>Parameter</th>
-        <th>Calculated Value</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Wheel Volume</td>
-        <td>0.40 in³</td>
-      </tr>
-      <tr>
-        <td>Total Shot Volume</td>
-        <td>0.46 in³</td>
-      </tr>
-      <tr>
-        <td>Shot Mass</td>
-        <td>0.017 lb</td>
-      </tr>
-      <tr>
-        <td>Required Clamping Force</td>
-        <td>5,412 lb</td>
-      </tr>
-      <tr>
-        <td>Minimum Machine Tonnage</td>
-        <td>2.706 tons</td>
-      </tr>
-      <tr>
-        <td>ABS Cooling Time</td>
-        <td>22.275 s</td>
-      </tr>
-      <tr>
-        <td>Estimated Total Cycle Time</td>
-        <td>40 s</td>
-      </tr>
-    </tbody>
-  </table>
 </div>
 
+<!-- ========================================================= -->
 
-<!-- DFM -->
+<!-- 1. MANUFACTURING PROCESS SELECTION -->
 
-<h3 class="mt-4">Design for Moldability</h3>
+<!-- ========================================================= -->
+
+<h3 class="mt-4">1. Manufacturing Process Selection</h3>
+
+<p> The first engineering decision was selecting the appropriate manufacturing process for the car body. Because the required production quantity was only one model, the process needed to minimize tooling cost while still accommodating the complex geometry of the car. </p>
+
+<p> I evaluated sand casting, high-pressure die casting, and investment casting using a decision matrix based on tooling cost, production volume, part complexity, lead time, and surface finish. </p>
+
+<div class="row mt-3 justify-content-center">
+
+  <div class="col-md-6 mb-4">
+
+    <figure class="text-center">
+
+      <img src="../assets/images/portfolioCar10.JPG"
+           class="img-fluid rounded shadow"
+           alt="Sand casting mold design"
+           style="width: 100%; height: 350px; object-fit: contain;">
+
+      <figcaption class="mt-2 text-muted">
+        Final Sand Casting System
+      </figcaption>
+
+    </figure>
+
+  </div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- 2. PATTERN AND MOLD MATERIAL -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">2. Pattern &amp; Mold Material Selection</h3>
+
+<p> After selecting sand casting, I determined the materials required to create the casting tooling. The pattern was designed to be FDM 3D printed PLA, while the mold was constructed from silica sand with binder. </p>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<div class="card shadow-sm h-100">
+
+  <div class="card-body">
+
+    <h5>PLA Pattern</h5>
+
+    <ul>
+      <li>Low-cost and rapidly manufactured through FDM printing</li>
+      <li>Allows rapid design iteration</li>
+      <li>Appropriate for a one-time prototype</li>
+      <li>Used to create the sand cavity rather than as the final component</li>
+    </ul>
+
+  </div>
+
+</div>
+
+</div>
+
+<div class="col-md-6">
+
+<div class="card shadow-sm h-100">
+
+  <div class="card-body">
+
+    <h5>Silica Sand Mold</h5>
+
+    <ul>
+      <li>Low material and tooling cost</li>
+      <li>Suitable for low-volume production</li>
+      <li>Thermally stable for molten aluminum</li>
+      <li>Chemically compatible with aluminum casting</li>
+      <li>Sand grain characteristics can influence strength and surface finish</li>
+    </ul>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- 3. ALLOY SELECTION -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">3. Aluminum Alloy Selection</h3>
+
+<p> I evaluated 1060 aluminum, A356 aluminum, and Zamak 3 based on their castability, fluidity, cost, suitability for sand casting, and weight. A decision matrix was used to compare the materials across these criteria. </p>
+
+
+
+    <div class="card shadow-sm h-100">
+
+      <div class="card-body">
+
+        <h5>Selected Material: A356 Aluminum</h5>
+
+        <p>
+          A356 received the highest overall evaluation because of its
+          castability, fluidity, and suitability for sand casting. Its
+          strength-to-weight characteristics also make it appropriate for
+          an automotive-style cast component.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- 4. SAND CASTING MOLD DESIGN -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">4. Sand Casting Mold Design</h3>
+
+<p> With the process and alloy selected, I designed the complete sand casting system around the CAD geometry. The mold incorporated a cope, drag, parting line, sprue, runner, gates, riser, and vents. </p>
+
+<h5 class="mt-3">Parting Line Design</h5>
+
+<p> The parting line was positioned at the interface between the cope and drag along the primary symmetry plane of the car. The location was selected near the widest cross-section of the geometry to minimize undercuts and allow the pattern to be removed with a relatively straight pull. </p>
+
+<p> This reduces mold mismatch and simplifies pattern removal while improving dimensional accuracy and reducing the amount of trimming and sanding required after casting. </p>
+
+<h5 class="mt-3">Gates, Sprue, Risers &amp; Vents</h5>
 
 <ul>
-  <li>Applied a 2° draft angle to vertical surfaces to improve demolding.</li>
-  <li>Placed the parting line through the wheel's widest cross-section.</li>
-  <li>Located the gate on the non-cosmetic inner face to minimize visible gate marks.</li>
-  <li>Positioned ejector pins near reinforced hub and spoke regions to prevent deformation.</li>
-  <li>Designed cooling channels near the mold surface to improve heat transfer and reduce cycle time.</li>
-  <li>Applied shrinkage compensation to the mold cavity dimensions.</li>
+
+<li> <strong>Sprue:</strong> Introduces molten aluminum through gravity-driven flow. </li>
+
+<li> <strong>Runner:</strong> Transfers molten aluminum from the sprue toward the gates. </li>
+
+<li> <strong>Gates:</strong> Feed molten aluminum into the casting while supporting bottom-up filling. </li>
+
+<li> <strong>Riser:</strong> Provides additional molten metal during solidification and compensates for casting shrinkage. </li>
+
+<li> <strong>Vents:</strong> Allow trapped air to escape from high points and small geometric extremities. </li>
+
+<li> <strong>Sprue Well:</strong> Helps reduce the likelihood of sand particles entering the mold cavity. </li>
+
 </ul>
 
-<h3 class="mt-4">Shrinkage Compensation</h3>
+<p> The gating and vent locations were selected to promote continuous filling, minimize air entrapment and turbulence, and reduce the likelihood of porosity and misruns. </p>
 
-<p>
-  Shrinkage compensation was applied to account for dimensional changes as the
-  polymer cools. For the ABS analysis, a shrinkage factor of 0.6% was used.
-</p>
+
+
+<!-- ========================================================= -->
+
+<!-- 5. CASTING ANALYSIS -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">5. Casting &amp; Gating Analysis</h3>
+
+<p> I used the car's CAD geometry to develop and size the sand casting system, including the riser, sprue, runner, and gates. The model had a volume of 5.76 in<sup>3</sup> and a surface area of 33.54 in<sup>2</sup>, which were used to determine the casting modulus and riser dimensions. </p>
+
+<p> The resulting cylindrical riser was sized to 1.12 in diameter × 1.12 in height. I also sized the gating system for a target 2-second fill time and analyzed the resulting metal flow. </p>
+
+<!-- ========================================================= -->
+
+<!-- 6. GATING VERIFICATION -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">6. Gating Design Verification</h3>
+
+<p> I verified the initial gate design against the allowable metal velocity. The initial design exceeded the 1 m/s velocity limit, so I iterated on the gate dimensions and increased the gate area from 0.068 in<sup>2</sup> to 0.073 in<sup>2</sup>. </p>
+
+<p> I also analyzed the runner dimensions and calculated a Reynolds number of 1.26 × 10<sup>4</sup> to evaluate the resulting flow regime. </p>
+
+
+
+<!-- ========================================================= -->
+
+<!-- 7. WHEEL MOLD DESIGN -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-5">7. Wheel Mold Design</h3>
+
+<p> I designed a single-cavity, two-plate aluminum injection mold for the car's wheels. The mold incorporated a center-plane parting line, an edge gate near the wheel hub, cooling channels, and draft for reliable part removal. </p>
+
+<p> The tooling was designed with design for manufacturing considerations to balance part quality, machining requirements, and ease of demolding. </p>
+
+<div class="row mt-3 justify-content-center">
+
+  <div class="col-md-8">
+
+    <figure class="text-center">
+
+      <img src="../assets/images/portfolioCar12.JPG"
+           class="img-fluid rounded shadow"
+           alt="Wheel mold CAD design"
+           style="width: 100%; height: 350px; object-fit: contain;">
+
+      <figcaption class="mt-2 text-muted">
+        Wheel Mold CAD Design
+      </figcaption>
+
+    </figure>
+
+  </div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- 8. INJECTION MOLDING ANALYSIS -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">8. Injection Molding Analysis</h3>
+
+<p> I analyzed the injection molding process for the wheel using ABS, evaluating material shrinkage, shot size, required clamping force, cooling time, and overall cycle time. </p>
+
+<div class="row text-center mt-3">
+
+<div class="col-md-3 mb-3">
+
+<div class="card shadow-sm h-100">
+
+  <div class="card-body">
+
+    <h5>0.6%</h5>
+    <p class="mb-0">Material Shrinkage</p>
+
+  </div>
+
+</div>
+
+</div>
+
+<div class="col-md-3 mb-3">
+
+<div class="card shadow-sm h-100">
+
+  <div class="card-body">
+
+    <h5>0.46 in<sup>3</sup></h5>
+    <p class="mb-0">Shot Volume</p>
+
+  </div>
+
+</div>
+
+</div>
+
+<div class="col-md-3 mb-3">
+
+<div class="card shadow-sm h-100">
+
+  <div class="card-body">
+
+    <h5>2.706 tons</h5>
+    <p class="mb-0">Minimum Clamping Capacity</p>
+
+  </div>
+
+</div>
+
+</div>
+
+<div class="col-md-3 mb-3">
+
+<div class="card shadow-sm h-100">
+
+  <div class="card-body">
+
+    <h5>40 s</h5>
+    <p class="mb-0">Cycle Time</p>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- 9. ENGINEERING SUMMARY -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-4">9. Engineering Design &amp; Verification</h3>
+
+<p> The engineering analysis connected the initial car geometry to a complete manufacturing system. I used process and material selection methods, CAD analysis, manufacturing calculations, and iterative design verification to develop the casting and injection molding processes. </p>
+
+<div class="row">
+
+<div class="col-md-6">
 
 <ul>
-  <li><strong>40 mm Outer Diameter:</strong> 40.24 mm mold dimension</li>
-  <li><strong>20 mm Core Diameter:</strong> 20.12 mm mold dimension</li>
+  <li>Manufacturing process and material selection</li>
+  <li>Sand casting mold and gating design</li>
+  <li>Riser and gate sizing</li>
+  <li>Fluid-flow analysis</li>
 </ul>
 
+</div>
 
-<!-- Final Overview -->
+<div class="col-md-6">
 
-<h2 class="mt-5">Project Outcome</h2>
-
-<p>
-  This project provided an end-to-end manufacturing workflow beginning with CAD
-  design and physical model production and continuing into detailed manufacturing
-  process analysis. The first part emphasized hands-on manufacturing, including
-  3D printing, molding, casting, machining, finishing, and assembly of the final
-  Peugeot model.
-</p>
-
-<p>
-  The second part extended the project into engineering analysis by evaluating
-  manufacturing methods, selecting materials, designing casting and injection
-  molding tooling, and calculating process parameters. The final manufacturing
-  strategy combined FDM 3D printing, aluminum sand casting, polymer injection
-  molding, and conventional machining to create a low-volume manufacturing system
-  suited to a one-unit prototype.
-</p>
-
-<p>
-  Overall, the project strengthened my ability to connect CAD design with
-  real-world manufacturing constraints and use engineering calculations to
-  validate manufacturing decisions.
-</p>
-
-
-<!-- Skills -->
-
-<h2 class="mt-4">Tools &amp; Technologies</h2>
 <ul>
-  <li><strong>CAD:</strong> SolidWorks</li>
-  <li><strong>Manufacturing:</strong> Sand Casting, Injection Molding, Machining, FDM 3D Printing</li>
-  <li><strong>Materials:</strong> A356 Aluminum, Polypropylene, ABS, PLA, AISI 1018 Steel</li>
-  <li><strong>Engineering Analysis:</strong> Casting Modulus, Gating Analysis, Shrinkage Compensation, Clamping Force, Cooling Time, Cycle Time</li>
-  <li><strong>Design Skills:</strong> Design for Manufacturing, Mold Design, Parting Line Design, Gating &amp; Riser Design, Tooling Design</li>
+  <li>Injection mold CAD and DFM</li>
+  <li>Clamping-force analysis</li>
+  <li>Cooling and cycle-time calculations</li>
+  <li>Iterative design verification</li>
 </ul>
 
-<a href="../index.html" class="btn btn-primary mt-3">← Return to Home</a>
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- PART 2 OVERVIEW / WRAP-UP -->
+
+<!-- ========================================================= -->
+
+<div class="card shadow-sm mt-5 mb-4">
+
+<div class="card-body p-4">
+
+<h3 class="mb-3">Part 2 Overview</h3>
+
+<p class="mb-0">
+  Part 2 transformed the completed CAD model into a manufacturable system
+  through engineering analysis and process development. The work connected
+  manufacturing and material selection with tooling design, casting and
+  injection molding calculations, fluid-flow analysis, DFM considerations,
+  and iterative design verification. This provided a complete engineering
+  workflow from initial CAD geometry to a validated manufacturing approach.
+</p>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+
+<!-- FINAL MANUFACTURING SYSTEM -->
+
+<!-- ========================================================= -->
+
+<h3 class="mt-5">Final Manufacturing System</h3>
+
+<p> The final manufacturing concept combined a 3D-printed pattern and silica-sand mold for the aluminum car body with a dedicated aluminum injection mold for the polymer wheels. The tooling, gating, riser, mold geometry, and process parameters were developed through engineering analysis and manufacturing constraints. </p>
+
+<p> Together, the two parts of the project connected CAD design, hands-on manufacturing, tooling development, material selection, process planning, and quantitative engineering analysis into a complete manufacturing workflow. </p>
+
+<a href="../index.html" class="btn btn-primary mt-3"> ← Return to Home </a>
 
 </section>
 
