@@ -1,216 +1,329 @@
- <!-- Navbar -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Custom Motor Manufacturing Project</title>
+
+  <!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
 
-    <!-- Website Name -->
-    <a class="navbar-brand" href="../index.html">Handsome Zheng</a>
 
-    <!-- Mobile Menu Button -->
-    <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<!-- Website Name -->
+<a class="navbar-brand" href="../index.html">Handsome Zheng</a>
 
-    <!-- Navigation Links -->
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto">
+<!-- Mobile Menu Button -->
+<button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
-        <!-- Home -->
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">Home</a>
-        </li>
+<!-- Navigation Links -->
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav ms-auto">
 
-        <!-- Coursework -->
-        <li class="nav-item">
-          <a class="nav-link" href="../projects/Coursework.html">
-            Coursework
+    <!-- Home -->
+    <li class="nav-item">
+      <a class="nav-link" href="../index.html">Home</a>
+    </li>
+
+    <!-- Coursework -->
+    <li class="nav-item">
+      <a class="nav-link" href="../projects/Coursework.html">
+        Coursework
+      </a>
+    </li>
+
+    <!-- Experience Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle"
+         href="../index.html#experience"
+         role="button"
+         data-bs-toggle="dropdown"
+         aria-expanded="false">
+        Experience
+      </a>
+
+      <ul class="dropdown-menu dropdown-menu-end">
+
+        <li>
+          <a class="dropdown-item" href="../projects/Joby.html">
+            Joby Aviation Internship
           </a>
         </li>
 
-        <!-- Experience Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"
-             href="#"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false">
-            Experience
+        <li>
+          <a class="dropdown-item" href="../projects/WSP.html">
+            WSP Internship
           </a>
-
-          <ul class="dropdown-menu dropdown-menu-end">
-
-            <li>
-              <a class="dropdown-item" href="../projects/Joby.html">
-                Joby Aviation Internship
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/WSP.html">
-                WSP Internship
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/FoosballResearch.html">
-                Columbia Creative Research Lab
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/RITECMO.html">
-                RIT Day Labs
-              </a>
-            </li>
-
-          </ul>
         </li>
 
-        <!-- Projects Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"
-             href="#"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false">
-            Projects
+        <li>
+          <a class="dropdown-item" href="../projects/FoosballResearch.html">
+            Columbia Creative Research Lab
           </a>
+        </li>
 
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li>
-              <a class="dropdown-item" href="../projects/Motor.html">
-                Custom Motor
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="../projects/F1.html">
-                FSAE Powertrain
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/CRC.html">
-                Combat Robotics
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/RITVex.html">
-                RIT VEXU Robotics
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/Hackathons.html">
-                Hackathons
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/Car.html">
-                Model Toy Car
-              </a>
-            </li>
-
-            <li>
-              <a class="dropdown-item" href="../projects/SolarTracker.html">
-                2 Axis Solar Tracker
-              </a>
-            </li>
-
-          </ul>
+        <li>
+          <a class="dropdown-item" href="../projects/RITECMO.html">
+            RIT Day Labs
+          </a>
         </li>
 
       </ul>
-    </div>
+    </li>
+
+    <!-- Projects Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle"
+         href="../index.html#projects"
+         role="button"
+         data-bs-toggle="dropdown"
+         aria-expanded="false">
+        Projects
+      </a>
+
+      <ul class="dropdown-menu dropdown-menu-end">
+
+        <li>
+          <a class="dropdown-item" href="../projects/Motor.html">
+            Custom Motor
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="../projects/F1.html">
+            FSAE Powertrain
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="../projects/CRC.html">
+            Combat Robotics
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="../projects/RITVex.html">
+            RIT VEXU Robotics
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="../projects/Hackathons.html">
+            Hackathons
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="../projects/Car.html">
+            Model Toy Car
+          </a>
+        </li>
+
+        <li>
+          <a class="dropdown-item" href="../projects/SolarTracker.html">
+            2 Axis Solar Tracker
+          </a>
+        </li>
+
+      </ul>
+    </li>
+
+  </ul>
+</div>
+
+
   </div>
 </nav>
 
-<h1 class="mb-3">Custom Motor Manufacturing Project</h1>
-<p>
-  <strong>Worked Alongside: </strong> Sirus Baca
-</p>
-  <div class="row text-center my-4">
+<!-- Main Content -->
 
-    <div class="col-md-7 mx-auto">
-      <figure>
-        <video controls
-               class="img-fluid rounded shadow"
-               style="width:100%; max-height:400px; object-fit:contain;">
-          <source src="../assets/videos/portfolioSolarVid.mov" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+<div class="container py-5">
 
-        <figcaption class="mt-2 text-muted">
-          3D Printed Motor Test
-        </figcaption>
-      </figure>
-    </div>
+  <h1 class="mb-3">
+    Custom Motor Manufacturing Project
+  </h1>
+
+  <p>
+    <strong>Worked Alongside:</strong> Sirus Baca
+  </p>
+
+  <!-- VIDEO -->
+
+  <div class="row justify-content-center text-center my-5">
+    <div class="col-md-8">
+
+
+  <figure>
+    <video controls
+           class="img-fluid rounded shadow"
+           style="width:80%; max-height:700px; object-fit:contain;">
+
+      <source
+        src="../assets/videos/portfolioMotorVid.mov"
+        type="video/mp4">
+
+      Your browser does not support the video tag.
+    </video>
+
+    <figcaption class="mt-2 text-muted">
+      3D Printed Motor Test
+    </figcaption>
+  </figure>
+
+</div>
+
 
   </div>
 
-    <h2 class="mt-4">This Project is still in process!</h2>
-    <h2 class="mt-4">Responsibilities</h2>
-    <ul>
-      <li>Help design a custom motor with a 32 to 1 gear ratio in Solidworks</li>
-        <li>Help manufacture aluminum housing with manufacturing techniques</li>
-    </ul>
+  <!-- PROJECT STATUS -->
+
+  <h2 class="mt-4">
+    This Project is still in process!
+  </h2>
+
+  <!-- RESPONSIBILITIES -->
+
+  <h2 class="mt-4">
+    Responsibilities
+  </h2>
+
+  <ul>
+    <li>
+      Help design a custom motor with a 32 to 1 gear ratio in Solidworks
+    </li>
 
 
-   <div class="text-center my-4">
-  <figure class="mb-4">
+<li>
+  Help manufacture aluminum housing with manufacturing techniques
+</li>
+
+
+  </ul>
+
+  <!-- IMAGE PAIR 1 -->
+
+  <div class="row justify-content-center text-center my-5">
+
+
+<div class="col-md-4">
+  <figure>
     <img src="../assets/images/portfolioMotor.jpg"
          class="img-fluid rounded shadow"
-         alt="Hackathon Team at Work"
-         style="max-width:45%;">
-    <figcaption class="mt-2 text-muted">Motor Shaft Manufacturing</figcaption>
-  </figure>
+         alt="Motor Shaft Manufacturing"
+         style="width:100%; height:350px; object-fit:contain;">
 
+    <figcaption class="mt-2 text-muted">
+      Motor Shaft Manufacturing
+    </figcaption>
+  </figure>
+</div>
+
+<div class="col-md-4">
   <figure>
     <img src="../assets/images/portfolioMotor4.JPG"
          class="img-fluid rounded shadow"
-         alt="Robot Prototype Early Stage"
-         style="max-width:45%;">
-    <figcaption class="mt-2 text-muted">Motor Shaft Drawing</figcaption>
+         alt="Motor Shaft Drawing"
+         style="width:100%; height:350px; object-fit:contain;">
+
+    <figcaption class="mt-2 text-muted">
+      Motor Shaft Drawing
+    </figcaption>
   </figure>
 </div>
 
-   <div class="text-center my-4">
-  <figure class="mb-4">
+
+  </div>
+
+  <!-- IMAGE PAIR 2 -->
+
+  <div class="row justify-content-center text-center my-5">
+
+
+<div class="col-md-4">
+  <figure>
     <img src="../assets/images/portfolioMotor6.jpg"
          class="img-fluid rounded shadow"
-         alt="Hackathon Team at Work"
-         style="max-width:45%;">
-    <figcaption class="mt-2 text-muted">Motor Magnet Housing Plate Manufacturing</figcaption>
-  </figure>
+         alt="Motor Magnet Housing Plate Manufacturing"
+         style="width:100%; height:350px; object-fit:contain;">
 
+    <figcaption class="mt-2 text-muted">
+      Motor Magnet Housing Plate Manufacturing
+    </figcaption>
+  </figure>
+</div>
+
+<div class="col-md-4">
   <figure>
     <img src="../assets/images/portfolioMotor2.jpg"
          class="img-fluid rounded shadow"
-         alt="Robot Prototype Early Stage"
-         style="max-width:45%;">
-    <figcaption class="mt-2 text-muted">Motor Magnet Housing Plate Manufacturing 2</figcaption>
+         alt="Motor Magnet Housing Plate Manufacturing 2"
+         style="width:100%; height:350px; object-fit:contain;">
+
+    <figcaption class="mt-2 text-muted">
+      Motor Magnet Housing Plate Manufacturing 2
+    </figcaption>
   </figure>
 </div>
 
-   <div class="text-center my-4">
-  <figure class="mb-4">
+
+  </div>
+
+  <!-- IMAGE PAIR 3 -->
+
+  <div class="row justify-content-center text-center my-5">
+
+
+<div class="col-md-4">
+  <figure>
     <img src="../assets/images/portfolioMotor3.jpg"
          class="img-fluid rounded shadow"
-         alt="Hackathon Team at Work"
-         style="max-width:45%;">
-    <figcaption class="mt-2 text-muted">Motor Magnet Housing Plate and Motor Back Shaft</figcaption>
-  </figure>
+         alt="Motor Magnet Housing Plate and Motor Back Shaft"
+         style="width:100%; height:350px; object-fit:contain;">
 
+    <figcaption class="mt-2 text-muted">
+      Motor Magnet Housing Plate and Motor Back Shaft
+    </figcaption>
+  </figure>
+</div>
+
+<div class="col-md-4">
   <figure>
     <img src="../assets/images/portfolioMotor5.JPG"
          class="img-fluid rounded shadow"
-         alt="Robot Prototype Early Stage"
-         style="max-width:45%;">
-    <figcaption class="mt-2 text-muted">Motor Back Shaft Drawing</figcaption>
+         alt="Motor Back Shaft Drawing"
+         style="width:100%; height:350px; object-fit:contain;">
+
+    <figcaption class="mt-2 text-muted">
+      Motor Back Shaft Drawing
+    </figcaption>
   </figure>
 </div>
+
+
+  </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
