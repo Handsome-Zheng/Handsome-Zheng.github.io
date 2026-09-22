@@ -1,0 +1,595 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2-Axis Solar Tracker - Handsome Zheng</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="../">Handsome Zheng</a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link" href="../">Home</a>
+        </li>
+
+        <!-- Coursework -->
+        <li class="nav-item">
+          <a class="nav-link" href="../projects/Coursework.html">
+            Coursework
+          </a>
+        </li>
+
+        <!-- Experience -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Experience
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+
+            <li>
+              <a class="dropdown-item" href="/projects/Joby.html">
+                Joby Aviation Internship
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/WSP.html">
+                WSP Internship
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/FoosballResearch.html">
+                Columbia Creative Research Lab
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/RITECMO.html">
+                RIT Day Labs
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+        <!-- Projects -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Projects
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+
+            <li>
+              <a class="dropdown-item" href="/projects/F1.html">
+                FSAE Powertrain
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/CRC.html">
+                Combat Robotics
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/RITVex.html">
+                RIT VEXU Robotics
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/Hackathons.html">
+                Hackathons
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/Car.html">
+                Model Toy Car
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="/projects/SolarTracker.html">
+                2 Axis Solar Tracker
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Project Content -->
+<section class="container my-5">
+
+  <h1 class="mb-3">2-Axis Solar Tracker</h1>
+
+  <figure class="text-center my-4">
+    <img src="../assets/images/portfolioSolar.jpg"
+         class="img-fluid rounded shadow"
+         alt="Dual-axis solar tracker"
+         style="max-width:65%;">
+    <figcaption class="mt-2 text-muted">
+      3D-printed dual-axis solar tracking system
+    </figcaption>
+  </figure>
+
+  <p>
+    <strong>Goal</strong> - Design, manufacture, and test an autonomous dual-axis
+    solar tracker capable of orienting a solar panel toward a simulated light
+    source across multiple azimuth and altitude angles.
+  </p>
+
+  <p>
+    <strong>Project Type</strong> - Mechanical Engineering Design Project
+  </p>
+
+  <p>
+    <strong>Focus</strong> - Mechanical design, electromechanical systems,
+    embedded control, sensor feedback, CAD, and 3D printing.
+  </p>
+
+
+  <!-- Overview -->
+  <h2 class="mt-4">Overview</h2>
+
+  <p>
+    This project involved designing and building a dual-axis solar tracking
+    system that automatically adjusts the orientation of a solar panel toward
+    the direction of maximum light intensity. The system uses four
+    photoresistors to determine the direction of the light source and two
+    motors to independently control horizontal and vertical movement.
+  </p>
+
+  <p>
+    The mechanical system was designed in SolidWorks and fabricated using
+    PLA 3D printing. The project went through multiple design iterations to
+    improve component fit, manufacturability, wiring clearance, sensor
+    placement, and rotational movement.
+  </p>
+
+
+  <!-- Objectives -->
+  <h2 class="mt-4">Objectives</h2>
+
+  <ul>
+    <li>Design a compact dual-axis mechanism capable of horizontal and vertical movement.</li>
+    <li>Develop an autonomous system capable of tracking a simulated light source.</li>
+    <li>Use real-time sensor feedback to determine the direction of maximum light intensity.</li>
+    <li>Design and manufacture custom mechanical components using CAD and 3D printing.</li>
+    <li>Iterate the mechanical and electrical design based on testing and assembly issues.</li>
+    <li>Evaluate tracking accuracy across multiple azimuth and altitude positions.</li>
+  </ul>
+
+
+  <!-- Mechanical Design -->
+  <h2 class="mt-4">Mechanical Design</h2>
+
+  <p>
+    The tracker was divided into three primary mechanical assemblies:
+    the baseplate, stepper motor mount, and photovoltaic (PV) mount.
+    The design prioritized simplicity, compactness, ease of assembly,
+    and clean wire management.
+  </p>
+
+  <h3 class="mt-4">Baseplate</h3>
+
+  <ul>
+    <li>Designed a two-level baseplate to house the Arduino, breadboard, and wiring.</li>
+    <li>Added channels and openings to route wiring between the two levels.</li>
+    <li>Created a recessed cavity for the electronics to improve organization.</li>
+    <li>Separated the support columns into individual components to reduce 3D printing time.</li>
+    <li>Added fillets and rounded edges to improve printability and structural quality.</li>
+  </ul>
+
+  <h3 class="mt-4">Stepper Motor Mount</h3>
+
+  <ul>
+    <li>Designed an L-shaped mount to connect the horizontal rotation system to the upper assembly.</li>
+    <li>Integrated mounting features for the vertical-axis motor.</li>
+    <li>Added fillets and revised tolerances to improve manufacturability and assembly.</li>
+    <li>Added a reinforced bore to improve the connection between the mount and motor.</li>
+    <li>Removed the original potentiometer holder after determining it was unnecessary for the final control system.</li>
+  </ul>
+
+  <h3 class="mt-4">PV Mount</h3>
+
+  <ul>
+    <li>Designed the upper platform to support the solar panel and sensor system.</li>
+    <li>Created dedicated mounting locations for four photoresistors.</li>
+    <li>Added wire slots to improve sensor wiring and prevent interference.</li>
+    <li>Adjusted sensor hole dimensions through multiple design iterations.</li>
+    <li>Increased clearance around the motor and solar-panel wiring.</li>
+    <li>Used painter's tape over the photoresistors to reduce sensor saturation from surrounding and reflected light.</li>
+  </ul>
+
+  <figure class="text-center my-4">
+    <img src="../assets/images/SolarTrackerCAD.jpg"
+         class="img-fluid rounded shadow"
+         alt="Solar tracker CAD assembly"
+         style="max-width:75%;">
+    <figcaption class="mt-2 text-muted">
+      Solar tracker mechanical assembly CAD
+    </figcaption>
+  </figure>
+
+
+  <!-- Electrical System -->
+  <h2 class="mt-4">Electrical System</h2>
+
+  <p>
+    The Arduino Uno serves as the central controller for the tracking system.
+    Four photoresistors measure light intensity from different directions,
+    while the motor shield controls the motors responsible for changing the
+    panel's orientation.
+  </p>
+
+  <ul>
+    <li><strong>Controller:</strong> Arduino Uno</li>
+    <li><strong>Motor Driver:</strong> Arduino Motor Shield V5</li>
+    <li><strong>Horizontal Motor:</strong> 28BYJ-48 5V stepper motor</li>
+    <li><strong>Vertical Motor:</strong> Servo motor</li>
+    <li><strong>Sensors:</strong> Four photoresistors</li>
+    <li><strong>Resistors:</strong> Four 10 kΩ resistors</li>
+    <li><strong>Measurement:</strong> Solar panel output voltage</li>
+  </ul>
+
+  <p>
+    Each photoresistor was paired with a 10 kΩ resistor to form a voltage
+    divider. The sensor outputs were connected to Arduino analog inputs
+    A0, A1, A2, and A4. The sensors were positioned as four directional
+    inputs labeled Top, Bottom, Left, and Right.
+  </p>
+
+  <figure class="text-center my-4">
+    <img src="../assets/images/portfolioSolar2.jpg"
+         class="img-fluid rounded shadow"
+         alt="Solar tracker electrical wiring"
+         style="max-width:70%;">
+    <figcaption class="mt-2 text-muted">
+      Photoresistor and motor control wiring
+    </figcaption>
+  </figure>
+
+
+  <!-- Control System -->
+  <h2 class="mt-4">Control System</h2>
+
+  <p>
+    The tracker uses closed-loop feedback to continuously compare the light
+    intensity measured by opposing photoresistors. The difference between
+    the Left and Right sensors determines horizontal movement, while the
+    difference between the Top and Bottom sensors determines vertical
+    movement.
+  </p>
+
+  <p>
+    The original control strategy used a hill-climbing approach with
+    experimentally determined sensor calibration limits. Testing showed
+    that the fixed calibration values could become inaccurate when the
+    surrounding lighting conditions changed.
+  </p>
+
+  <p>
+    The revised system therefore replaced the static calibration approach
+    with a five-second startup calibration routine. The Arduino measures
+    the current ambient lighting conditions and establishes baseline values
+    before beginning tracking.
+  </p>
+
+  <ul>
+    <li>Four photoresistors continuously measure directional light intensity.</li>
+    <li>A five-second startup routine establishes ambient-light baselines.</li>
+    <li>Opposing sensor pairs are compared directly.</li>
+    <li>A deadband prevents unnecessary motor movement and oscillation.</li>
+    <li>The stepper motor controls horizontal movement.</li>
+    <li>The servo motor controls vertical movement.</li>
+    <li>A target threshold allows the system to stop when sufficient light is detected.</li>
+    <li>Serial controls provide manual stop/resume functionality during testing.</li>
+  </ul>
+
+
+  <!-- Iterative Design -->
+  <h2 class="mt-4">Design Iteration</h2>
+
+  <p>
+    The tracker underwent several mechanical and electrical revisions during
+    development. Early testing identified issues with component tolerances,
+    wiring interference, sensor placement, and unnecessary positional
+    feedback hardware.
+  </p>
+
+  <h3 class="mt-4">Initial Design</h3>
+
+  <ul>
+    <li>Used an L-shaped motor mount with a potentiometer for positional feedback.</li>
+    <li>Used a simpler sensor configuration and hill-climbing control strategy.</li>
+    <li>Achieved accurate altitude tracking but exhibited a consistent azimuth offset.</li>
+    <li>Experienced wiring interference around the rotational axis.</li>
+  </ul>
+
+  <h3 class="mt-4">Revised Design</h3>
+
+  <ul>
+    <li>Removed the potentiometer after determining it was unnecessary for the revised control strategy.</li>
+    <li>Introduced improved clearances and mounting tolerances.</li>
+    <li>Added wire-routing features to the PV mount and baseplate.</li>
+    <li>Improved photoresistor mounting and sensor wiring.</li>
+    <li>Added fillets and rounded edges for improved 3D printing.</li>
+    <li>Replaced static sensor normalization with dynamic startup calibration.</li>
+    <li>Implemented direct differential sensor comparisons for motor control.</li>
+  </ul>
+
+  <div class="row text-center my-4">
+
+    <div class="col-md-6">
+      <figure>
+        <img src="../assets/images/SolarTrackerInitial.jpg"
+             class="img-fluid rounded shadow"
+             alt="Initial solar tracker design">
+        <figcaption class="mt-2 text-muted">
+          Initial tracker design
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="col-md-6">
+      <figure>
+        <img src="../assets/images/SolarTrackerRevised.jpg"
+             class="img-fluid rounded shadow"
+             alt="Revised solar tracker design">
+        <figcaption class="mt-2 text-muted">
+          Revised tracker design
+        </figcaption>
+      </figure>
+    </div>
+
+  </div>
+
+
+  <!-- Testing -->
+  <h2 class="mt-4">Testing &amp; Results</h2>
+
+  <p>
+    The completed system was tested using a 14 V light-source power supply.
+    The tracker was evaluated at three azimuth angles and three altitude
+    angles. Solar-panel output voltage and tracking accuracy were recorded
+    for each combination.
+  </p>
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped text-center align-middle">
+
+      <thead class="table-dark">
+        <tr>
+          <th>Azimuth (°)</th>
+          <th>Altitude (°)</th>
+          <th>Voltage (V)</th>
+          <th>Azimuth Error (°)</th>
+          <th>Altitude Error (°)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>45</td>
+          <td>15</td>
+          <td>2.532</td>
+          <td>~7.4</td>
+          <td>1</td>
+        </tr>
+
+        <tr>
+          <td>45</td>
+          <td>45</td>
+          <td>2.597</td>
+          <td>~7.0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>45</td>
+          <td>75</td>
+          <td>2.590</td>
+          <td>~7.0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>90</td>
+          <td>15</td>
+          <td>2.525</td>
+          <td>~7.5</td>
+          <td>1</td>
+        </tr>
+
+        <tr>
+          <td>90</td>
+          <td>45</td>
+          <td>2.592</td>
+          <td>~7.1</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>90</td>
+          <td>75</td>
+          <td>2.591</td>
+          <td>~7.1</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>135</td>
+          <td>15</td>
+          <td>2.541</td>
+          <td>~7.2</td>
+          <td>1</td>
+        </tr>
+
+        <tr>
+          <td>135</td>
+          <td>45</td>
+          <td>2.595</td>
+          <td>~7.0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>135</td>
+          <td>75</td>
+          <td>2.593</td>
+          <td>~7.0</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+
+    </table>
+  </div>
+
+  <p>
+    The measured solar-panel output remained relatively consistent across
+    the tested positions, ranging from approximately 2.525 V to 2.597 V.
+    The altitude axis demonstrated 0°–1° of tracking error across all test
+    conditions.
+  </p>
+
+  <p>
+    The azimuth axis exhibited a persistent offset of approximately 7°.
+    Because this error remained relatively consistent across different
+    light-source positions, it suggests a systematic source rather than
+    random sensor variation.
+  </p>
+
+
+  <!-- Results Discussion -->
+  <h2 class="mt-4">Results &amp; Discussion</h2>
+
+  <h3 class="mt-4">Altitude Tracking</h3>
+
+  <p>
+    The altitude axis consistently achieved either 0° or 1° of error.
+    This indicates that the sensor arrangement, motor control, and mechanical
+    linkage were able to accurately respond to changes in the vertical
+    direction of the light source.
+  </p>
+
+  <h3 class="mt-4">Azimuth Tracking</h3>
+
+  <p>
+    Horizontal tracking consistently displayed an offset of approximately
+    7°. Several factors may have contributed to this error, including motor
+    calibration, control-code offsets, and mechanical interference from
+    wiring around the rotational axis.
+  </p>
+
+  <p>
+    The relatively large rotational radius of the upper assembly allowed
+    wires connected to the photoresistors, motor, breadboard, and Arduino
+    to become tensioned or interfere with rotation. This could restrict
+    the available range of motion and prevent the panel from reaching the
+    exact desired azimuth.
+  </p>
+
+
+  <!-- Future Improvements -->
+  <h2 class="mt-4">Future Improvements</h2>
+
+  <ul>
+    <li>Route wiring through or closer to the rotational axis to reduce interference.</li>
+    <li>Bundle and secure sensor wiring to prevent tangling during rotation.</li>
+    <li>Recalibrate the motor's zero position relative to the physical panel orientation.</li>
+    <li>Increase mechanical clearance around the azimuth axis.</li>
+    <li>Further refine the sensor holders and motor mounts.</li>
+    <li>Continue tuning the deadband and tracking thresholds for faster response.</li>
+    <li>Improve the control algorithm to compensate for systematic motor offsets.</li>
+  </ul>
+
+
+  <!-- Skills -->
+  <h2 class="mt-4">Tools &amp; Technologies &amp; Skills</h2>
+
+  <ul>
+    <li><strong>CAD:</strong> SolidWorks</li>
+    <li><strong>Manufacturing:</strong> 3D Printing, PLA, Mechanical Assembly</li>
+    <li><strong>Electronics:</strong> Arduino Uno, Motor Shield, Photoresistors, Breadboard, Motors</li>
+    <li><strong>Programming:</strong> C++ / Arduino IDE</li>
+    <li><strong>Control:</strong> Closed-loop feedback, sensor differential control, calibration, deadband control</li>
+    <li><strong>Engineering:</strong> Mechanical design, tolerance optimization, wiring management, iterative prototyping, experimental testing</li>
+  </ul>
+
+
+  <!-- Conclusion -->
+  <h2 class="mt-4">Conclusion</h2>
+
+  <p>
+    The completed dual-axis solar tracker successfully demonstrated
+    autonomous light tracking across multiple azimuth and altitude positions.
+    The combination of custom 3D-printed mechanical components, directional
+    photoresistors, motor control, and Arduino-based feedback allowed the
+    system to continuously adjust the solar panel toward the light source.
+  </p>
+
+  <p>
+    The project also demonstrated the importance of iterative engineering
+    design. Multiple revisions to the mechanical structure, sensor mounting,
+    wiring, tolerances, and control logic improved the overall functionality
+    of the system. While the altitude axis achieved highly accurate tracking,
+    the remaining azimuth offset highlighted opportunities for additional
+    mechanical and control-system refinement.
+  </p>
+
+
+  <!-- Return -->
+  <a href="../index.html" class="btn btn-primary mt-3">
+    ← Return to Home
+  </a>
+
+</section>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
