@@ -170,9 +170,9 @@
 
 <p>
   Supported Joby Aviation's Flight Test Instrumentation (FTI) team across
-  four aircraft, coordinating engineering, manufacturing, instrumentation,
+  multiple aircraft programs, coordinating engineering, manufacturing, instrumentation,
   and flight test activities from design through implementation and
-  approval.
+  approval. Due to confidentiality agreements, specific details are omitted.
 </p>
 
 
@@ -183,8 +183,8 @@
   <li><strong>Engineering:</strong> CATIA, ENOVIA, GD&amp;T, Structural Analysis, CAD</li>
   <li><strong>Programming &amp; Data:</strong> Python, SQL, PySpark, Databricks</li>
   <li><strong>Engineering Software:</strong> LabVIEW, Jira, Confluence, Smartsheet</li>
-  <li><strong>Hardware:</strong> Strain Gauges, Accelerometers, OAT Sensors, Thermocouples, Air Data Booms, DAQ Systems</li>
-  <li><strong>Program Management:</strong> Scheduling, Design Reviews, Engineering Change Requests, BOM Management, Procurement, Inventory Tracking</li>
+  <li><strong>Hardware:</strong> Strain Gauges, Accelerometers, OAT Sensors, Thermocouples, DAQ Systems</li>
+  <li><strong>Program Management:</strong> Scheduling, Design Reviews, Procurement, Inventory Tracking</li>
 </ul>
 
 
@@ -197,87 +197,43 @@
 
 <p>
   Developed an internal cross-functional tool that reconciled the
-  source-of-truth aircraft BOM against eight engineering team Smartsheet
-  schedules. The tool identified parts that were missing from schedules,
-  incorrectly formatted, overdue, or not aligned with current design
-  revisions.
+  source-of-truth aircraft data against multiple engineering team data. The tool identified information that were missing from data,
+  incorrectly formatted, overdue, or not aligned with up to date data.
 </p>
 
 <ul>
   <li>
     Built Python, SQL, and PySpark data-processing tools in Databricks to
-    standardize engineering schedule data from eight Smartsheet project
-    trackers.
+    standardize data from various sources.
   </li>
 
   <li>
-    Developed an ETL pipeline that extracted part numbers, revisions,
-    dates, completion percentages, assignees, and schedule information from
-    inconsistent human-entered Smartsheet data.
+    Developed a pipeline that extracted information from inconsistent data.
   </li>
 
   <li>
-    Connected CATIA BOM data with Smartsheet schedules through Databricks,
-    Lakebase/Postgres, a backend API, and a React frontend to create a
-    continuously updated engineering view.
+    Connected data with databricks to keep the engineering view up to date.
   </li>
 
   <li>
-    Created automated checks that identified unreleased parts missing from
-    PM schedules, overdue work, revision mismatches, and incomplete
-    schedule coverage.
+    Created automated checks that identified errors, mistmatches, and reviewed data.
   </li>
 
   <li>
-    Replaced a manually cross-referenced Excel process covering 15 BOMs
-    and eight schedules with an automated workflow that could be run with
+    Replaced multiple manually cross-referenced data process with an automated workflow that could be run with
     a single click.
   </li>
 
   <li>
-    Added ownership, schedule source, engineering contact, maturity,
-    start/finish dates, completion status, and revision information to
-    improve accountability across engineering teams.
+    Deployed a accessible and easy to use frontend interface.
   </li>
 
   <li>
-    Deployed a Streamlit interface so non-technical program managers could
-    generate reports without accessing the command line.
-  </li>
-
-  <li>
-    <strong>Impact:</strong> Reduced manual schedule and BOM reconciliation
+    <strong>Impact:</strong> Reduced manual data reconciliation
     while giving program managers a centralized way to identify missing
-    work, overdue designs, and schedule discrepancies.
+    work and discrepancies.
   </li>
 </ul>
-
-<div class="row text-center my-4">
-
-  <!-- Image 1 -->
-  <div class="col-md-6">
-    <img src="../assets/images/portfolioJoby4.JPG"
-         class="img-fluid rounded shadow"
-         alt="BOM Smartsheet Comparator interface"
-         style="width: 100%; height: 350px; object-fit: contain;">
-  </div>
-
-  <!-- Image 2 -->
-  <div class="col-md-6">
-    <img src="../assets/images/portfolioJoby3.JPG"
-         class="img-fluid rounded shadow"
-         alt="BOM Smartsheet Comparator results"
-         style="width: 100%; height: 350px; object-fit: contain;">
-  </div>
-
-  <!-- Single Caption -->
-  <div class="col-12">
-    <figcaption class="mt-2 text-muted">
-      BOM Smartsheet Comparator — Architecture
-    </figcaption>
-  </div>
-
-</div>
 
 <!-- Calibration Tracker -->
 <h3 class="mt-5">Sensor Calibration Tracker</h3>
@@ -300,8 +256,7 @@
   </li>
 
   <li>
-    Implemented automated alerts for sensors approaching the three-month
-    calibration threshold and requiring recalibration.
+    Developed a digital dashboard to organize sensor records, improve traceability, and provide automated reminders for upcoming recalibration
   </li>
 
   <li>
@@ -327,7 +282,7 @@
 
 <p>
   Supported the design and implementation of flight test instrumentation
-  across SN101, SN102, SN103, and SN104, working with mechanical,
+  across multiple aircraft programs, working with mechanical,
   electrical, structural, test, and aircraft technician teams.
 </p>
 
@@ -349,7 +304,7 @@
   </li>
 
   <li>
-    Contributed to instrumentation configurations for SN102 and SN103,
+    Contributed to instrumentation configurations for multiple aircraft programs,
     including DAQ chassis and harness clamp designs.
   </li>
 
@@ -400,8 +355,7 @@
   </li>
 
   <li>
-    Held approval authority for engineering change requests affecting
-    finalized or installed aircraft designs.
+    Coordinated engineering change reviews and approvals to support implementation of aircraft hardware and instrumentation.
   </li>
 
   <li>
@@ -422,7 +376,7 @@
 
 <ul>
   <li>
-    Developed Python utilities to analyze flattened BOMs and identify
+    Developed Python utilities to analyze data and identify
     which parts required procurement versus parts already available or
     unnecessary.
   </li>
@@ -435,8 +389,7 @@
 
   <li>
     Used Databricks, SQL, PySpark, and Python to move and transform
-    engineering data between Smartsheet, Databricks, Lakebase/Postgres,
-    backend services, and frontend applications.
+    engineering data between various databases.
   </li>
 
   <li>
@@ -451,7 +404,7 @@
 
 <p>
   My work helped connect engineering design, program management,
-  manufacturing, procurement, and flight test activities across four
+  manufacturing, procurement, and flight test activities across multiple
   aircraft. The software tools I developed reduced manual data
   reconciliation, improved schedule visibility, and gave engineers and
   program managers more reliable information for decision-making.
